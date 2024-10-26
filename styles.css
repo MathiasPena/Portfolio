@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+}
+
+.navbar {
+    background-color: #222;
+    padding: 1rem;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+i {
+    color: #0d6efd;
+}
+
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+#navbarNav {
+    flex-grow: 1;
+}
+
+#navbarNav .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button.btn-secondary {
+    margin-left: auto;
+}
+
