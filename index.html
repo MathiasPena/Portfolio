@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Mathias Pena Heredia</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-dark text-light">
+
+<!-- Barra de navegación centrada -->
+<!-- Barra de navegación centrada -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mathias Pena</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="#about" data-key="about">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects" data-key="projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills" data-key="skills">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience" data-key="experience">Experiencia y Educación</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact" data-key="contact">Contacto</a></li>
+            </ul>
+            <button class="btn btn-secondary" onclick="toggleLanguage()">EN/ES</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Sección de presentación -->
+<section id="about" class="container my-5">
+    <div class="text-center">
+        <h2 data-key="about">Sobre mí</h2>
+        <p data-key="description">Soy un desarrollador uruguayo interesado en el desarrollo full-stack. Mi objetivo es ingresar como trainee en desarrollo web, con enfoque en backend y frontend.</p>
+    </div>
+</section>
+
+<!-- Sección de proyectos -->
+<section id="projects" class="container my-5">
+    <h2 data-key="projects">Proyectos</h2>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card bg-secondary text-light">
+                <div class="card-body">
+                    <h5 class="card-title">Gestor de Tareas</h5>
+                    <p class="card-text" data-key="project1_description">Aplicación para gestionar tareas con funcionalidades CRUD, utilizando Java y SQL para el backend y HTML/CSS para el frontend.</p>
+                    <p><strong>Tecnologías:</strong> Java, SQL, HTML, CSS</p>
+                    <a href="https://github.com/tuusuario/proyecto1" class="btn btn-outline-light" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card bg-secondary text-light">
+                <div class="card-body">
+                    <h5 class="card-title">Aplicación de Notas</h5>
+                    <p class="card-text" data-key="project2_description">App para tomar notas de manera sencilla. Incluye almacenamiento local y uso de APIs para sincronización.</p>
+                    <p><strong>Tecnologías:</strong> JavaScript, HTML, CSS</p>
+                    <a href="https://github.com/tuusuario/proyecto2" class="btn btn-outline-light" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de habilidades -->
+<section id="skills" class="container my-5 text-center">
+    <h2 data-key="skills">Habilidades</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-2 col-4 mb-3">
+            <i class="fab fa-java fa-3x"></i>
+            <p>Java</p>
+        </div>
+        <div class="col-md-2 col-4 mb-3">
+            <i class="fas fa-database fa-3x"></i>
+            <p>SQL</p>
+        </div>
+        <div class="col-md-2 col-4 mb-3">
+            <i class="fab fa-js fa-3x"></i>
+            <p>JavaScript</p>
+        </div>
+        <div class="col-md-2 col-4 mb-3">
+            <i class="fab fa-html5 fa-3x"></i>
+            <p>HTML</p>
+        </div>
+        <div class="col-md-2 col-4 mb-3">
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <p>CSS</p>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de experiencia y educación -->
+<section id="experience" class="container my-5">
+    <h2 data-key="experience">Experiencia y Educación</h2>
+    <p data-key="education_info">Actualmente cursando la carrera de Tecnologías de la Información en UTEC, enfocándome en el desarrollo web.</p>
+</section>
+
+<!-- Sección de contacto -->
+<section id="contact" class="container my-5 text-center">
+    <h2 data-key="contact">Contacto</h2>
+    <p>Puedes contactarme a través de mi email o en mis redes sociales.</p>
+    <div class="d-flex justify-content-center">
+        <a href="mailto:tuemail@example.com" class="btn btn-outline-light mr-3"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://linkedin.com/in/tuusuario" class="btn btn-outline-light mr-3" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/tuusuario" class="btn btn-outline-light" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+</section>
+
+<!-- Bootstrap JS and custom JS for language toggle -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
