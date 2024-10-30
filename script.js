@@ -17,5 +17,31 @@ function toggleLanguage() {
     loadTranslations();
 }
 
+// Función para cambiar el tema
+function toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('dark');
+
+    // Cambiar a tema claro si actualmente está en oscuro
+    if (body.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+    } else {
+        localStorage.setItem('theme', 'light');
+    }
+}
+
+// Cargar el tema guardado al cargar la página
+window.addEventListener("load", function() {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    } else {
+        // Si no hay tema guardado, establecer tema claro por defecto
+        document.body.classList.add('light');
+        localStorage.setItem('theme', 'dark');
+    }
+});
+
 // Cargar las traducciones al iniciar
 document.addEventListener("DOMContentLoaded", loadTranslations);
+

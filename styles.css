@@ -1,6 +1,19 @@
 body {
-    background-color: #121212;
+    transition: background-color 0.3s, color 0.3s;
 }
+
+/* Tema claro */
+body.light {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Tema oscuro */
+body.dark {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
 
 .navbar {
     background-color: #222;
@@ -43,4 +56,14 @@ i {
 button.btn-secondary {
     margin-left: auto;
 }
+
+.botonnav {
+    height: auto;
+    margin: 5px;
+}
+
+.botonnav i {
+    color:  #fff;
+}
+
 
