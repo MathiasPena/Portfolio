@@ -1,7 +1,7 @@
 let currentLang = 'es';
 
 function loadTranslations() {
-    fetch('translations.json')
+    fetch('assets/text/translations.json')
         .then(response => response.json())
         .then(data => {
             const elements = document.querySelectorAll('[data-key]');

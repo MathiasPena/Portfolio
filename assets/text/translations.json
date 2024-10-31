@@ -1,0 +1,40 @@
+{
+    "es": {
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "technologies": "Tecnologías:",
+        "experience": "Experiencia y Educación",
+        "contact": "Contacto",
+        "contact_info": "Puedes contactarme a través de mi email o en mis redes sociales.",
+        "description_1": "¡Hola! Soy Mathias Pena Heredia, un entusiasta del desarrollo de software y estudiante de sexto semestre de Tecnologías de la Información en UTEC. Desde que descubrí el mundo de la programación, supe que quería sumergirme en este fascinante universo y explorar todo lo que tiene para ofrecer.",
+        "description_2": "Me encanta enfrentar desafíos y aprender nuevas tecnologías que me ayuden a crear soluciones innovadoras. Trabajo en proyectos de desarrollo full-stack, donde combino mi creatividad con habilidades técnicas para construir aplicaciones efectivas y atractivas. También tengo un interés creciente en machine learning utilizando Python, y disfruto explorando el desarrollo móvil con Kotlin para Android.",
+        "description_3": "Soy un firme creyente en la colaboración, así que disfruto trabajar en equipo y compartir ideas con otros. Siempre busco crear un ambiente positivo y motivador, donde todos podamos crecer juntos.",
+        "description_4": "Además de mis habilidades en programación y manejo de bases de datos, estoy emocionado por aprender más sobre Cloud y DevOps. En mi tiempo libre, me gusta experimentar con nuevas herramientas y mantenerme al día con las tendencias de la industria.",
+        "description_5": "Hablo español nativo y tengo un nivel avanzado de inglés (C1), lo que me permite comunicarme en diferentes contextos. Estoy emocionado por las oportunidades que el futuro tiene para ofrecer y listo para dejar mi huella en el mundo del software.",
+        "project1_description": "Aplicación para gestionar tareas con funcionalidades CRUD.",
+        "project2_description": "App para tomar notas de manera sencilla.",
+        "education_info": "Actualmente cursando la carrera de Tecnologías de la Información en UTEC.",
+        "project1_title": "Gestor de Tareas",
+        "project2_title": "Aplicación de Notas"
+    },
+    "en": {
+        "about": "About",
+        "projects": "Projects",
+        "skills": "Skills",
+        "technologies": "Technologies:",
+        "experience": "Experience & Education",
+        "contact": "Contact",
+        "contact_info": "You can contact me via email or social media.",
+        "description_1": "Hello! I am Mathias Pena Heredia, a software development enthusiast and a sixth-semester Information Technology student at UTEC. Since discovering the world of programming, I knew I wanted to immerse myself in this fascinating universe and explore everything it has to offer.",
+        "description_2": "I love facing challenges and learning new technologies that help me create innovative solutions. I work on full-stack development projects where I combine my creativity with technical skills to build effective and appealing applications. I also have a growing interest in machine learning using Python and enjoy exploring mobile development with Kotlin for Android.",
+        "description_3": "I firmly believe in collaboration, so I enjoy working in teams and sharing ideas with others. I always strive to create a positive and motivating environment where we can all grow together.",
+        "description_4": "In addition to my skills in programming and database management, I am excited to learn more about Cloud and DevOps. In my free time, I enjoy experimenting with new tools and staying updated with industry trends.",
+        "description_5": "I am a native Spanish speaker and have an advanced proficiency in English (C1), which allows me to communicate in various contexts. I am excited about the opportunities the future has to offer and ready to make my mark in the software world.",
+        "project1_description": "Task manager application with CRUD functionalities.",
+        "project2_description": "Simple note-taking app.",
+        "education_info": "Currently studying IT at UTEC.",
+        "project1_title": "Task Manager",
+        "project2_title": "Note App"
+    }
+}
