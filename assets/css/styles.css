@@ -1,110 +1,123 @@
+/* Transiciones para el cuerpo */
 body {
     transition: background-color 0.3s, color 0.3s;
 }
 
 /* Tema claro */
 body.light {
-    background-color: #f3f3f5;
-    color: #212529;
+    background-color: #f3f3f5; /* Fondo claro */
+    color: #212529; /* Texto oscuro */
 }
 
 /* Tema oscuro */
 body.dark {
-    background-color: #343a40;
-    color: #f8f9fa;
+    background-color: #343a40; /* Fondo oscuro */
+    color: #f8f9fa; /* Texto claro */
 }
 
+/* Estilos de la barra de navegación */
 .navbar {
-    background-color: #007bff; /* Cambiado a un azul moderno */
-    padding: 1rem;
+    background-color: #007bff; /* Azul moderno para la navbar */
+    padding: 1rem; /* Espaciado interno */
 }
 
+/* Estilos de las cards */
 .card {
-    transition: transform 0.3s;
+    transition: transform 0.3s; /* Transición suave al transformar */
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Escala al pasar el mouse */
 }
 
+/* Estilos para íconos */
 i {
-    color: #0d6efd; /* Color azul para íconos */
+    color: #0d6efd; /* Color azul para los íconos */
 }
 
+/* Estilos del contenedor de la barra de navegación */
 .navbar .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; /* Flexbox para el contenedor */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
 }
 
+/* Estilos para el logo o marca de la navbar */
 .navbar-brand {
-    margin-right: auto;
+    margin-right: auto; /* Margen a la derecha */
 }
 
+/* Estilos para el menú de la navbar */
 #navbarNav {
-    flex-grow: 1;
+    flex-grow: 1; /* Expande el navbar */
 }
 
 #navbarNav .navbar-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    display: flex; /* Flexbox para los elementos de navegación */
+    justify-content: center; /* Centrar horizontalmente */
+    width: 100%; /* Ancho completo */
 }
 
+/* Estilo de botones secundarios */
 button.btn-secondary {
-    margin-left: auto;
+    margin-left: auto; /* Margen izquierdo automático */
 }
 
+/* Estilos de los botones de navegación */
 .botonnav {
-    height: auto;
-    margin: 5px;
+    height: auto; /* Alto automático */
+    margin: 5px; /* Margen alrededor */
 }
 
 .botonnav i {
-    color:  #fff; /* Blanco para los íconos del botón de navegación */
+    color:  #fff; /* Color blanco para íconos de botones de navegación */
 }
 
 /* Estilos de la línea de tiempo */
 .timeline {
-    position: relative;
-    padding-left: 30px;
-    margin-top: 20px;
+    position: relative; /* Posicionamiento relativo */
+    padding-left: 30px; /* Espacio a la izquierda */
+    margin-top: 20px; /* Margen superior */
 }
 
+/* Línea de tiempo antes de los elementos */
 .timeline:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 20px;
-    width: 4px;
+    content: ''; /* Contenido vacío */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Alineado arriba */
+    bottom: 0; /* Alineado abajo */
+    left: 20px; /* Alineado a la izquierda */
+    width: 4px; /* Ancho de la línea */
     background-color: #007bff; /* Azul para la línea de la cronología */
-    border-radius: 4px;
+    border-radius: 4px; /* Bordes redondeados */
 }
 
+/* Estilos para los elementos de la línea de tiempo */
 .timeline-item {
-    position: relative;
-    padding-left: 20px;
+    position: relative; /* Posicionamiento relativo */
+    padding-left: 20px; /* Espacio a la izquierda */
 }
 
+/* Estilos para las fechas de la línea de tiempo */
 .timeline-date {
-    font-size: 1rem;
+    font-size: 1rem; /* Tamaño de fuente */
     color: #6c757d; /* Color gris suave */
-    min-width: 100px;
-    font-weight: bold;
+    min-width: 100px; /* Ancho mínimo */
+    font-weight: bold; /* Negrita */
 }
 
+/* Contenido de la línea de tiempo */
 .timeline-content {
     background-color: #ffffff; /* Blanco para el contenido en modo claro */
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    transition: transform 0.3s ease;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    width: 100%; /* Ancho completo */
+    transition: transform 0.3s ease; /* Transición suave al transformar */
 }
 
 .timeline-content:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px); /* Eleva al pasar el mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más intensa al pasar el mouse */
 }
 
 .timeline-content h4 {
@@ -112,10 +125,10 @@ button.btn-secondary {
 }
 
 .date {
-    font-size: 0.9rem;
+    font-size: 0.9rem; /* Tamaño de fuente para la fecha */
 }
 
-/* Modo oscuro */
+/* Estilos para el modo oscuro */
 body.dark .navbar {
     background-color: #222; /* Navbar oscuro */
 }
@@ -129,31 +142,33 @@ body.dark .timeline-content {
 }
 
 body.dark .timeline-date {
-    color: #adb5bd; /* Color de texto gris claro para las fechas en modo oscuro */
+    color: #adb5bd; /* Color de texto gris claro para fechas en modo oscuro */
 }
 
 body.dark .timeline-content h4 {
-    color: #ffffff; /* Azul brillante para los títulos en modo oscuro */
+    color: #ffffff; /* Blanco para títulos en modo oscuro */
 }
 
+/* Estilos de títulos */
 h2 {
-    margin: 15px;
-    text-align: center;
-    color: #007bff; /* Azul para los títulos de sección */
+    margin: 15px; /* Margen alrededor */
+    text-align: center; /* Centrado */
+    color: #007bff; /* Azul para títulos de sección */
 }
 
-/* En modo oscuro, títulos se adaptan */
+/* Títulos en modo oscuro */
 body.dark h2 {
     color: #f8f9fa; /* Blanco para títulos en modo oscuro */
 }
 
-/* En modo oscuro, títulos se adaptan */
+/* Títulos h4 en modo oscuro */
 body.dark h4 {
     color: #f8f9fa; /* Blanco para títulos en modo oscuro */
 }
 
+/* Estilos para botones de contacto */
 .boton-contacto {
-    margin: 5px;
+    margin: 5px; /* Margen alrededor */
     border: 2px solid #007bff; /* Borde azul */
     color: #007bff; /* Texto azul */
     transition: background-color 0.3s, color 0.3s; /* Transiciones para el hover */
@@ -171,8 +186,8 @@ body.dark .boton-contacto {
 }
 
 body.dark .boton-contacto:hover {
-    background-color: #ffffff; /* Fondo azul al pasar el mouse en modo oscuro */
-    color: #000000; /* Texto blanco al pasar el mouse en modo oscuro */
+    background-color: #ffffff; /* Fondo blanco al pasar el mouse en modo oscuro */
+    color: #000000; /* Texto negro al pasar el mouse en modo oscuro */
 }
 
 /* Estilos para la sección Sobre mí */
@@ -191,6 +206,7 @@ body.dark .boton-contacto:hover {
     transform: translateY(-5px); /* Elevación al pasar el mouse */
 }
 
+/* Estilos para la imagen de perfil */
 .profile-picture {
     margin: 20px; /* Espaciado interno */
     border: 5px solid #007bff; /* Borde azul moderno */
@@ -199,6 +215,7 @@ body.dark .boton-contacto:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra de profundidad */
 }
 
+/* Descripción de la sección Sobre mí */
 .about-description {
     color: #212529; /* Color de texto oscuro */
 }
@@ -209,8 +226,6 @@ body.dark .boton-contacto:hover {
 }
 
 /* Estilos en modo oscuro */
-
-
 body.dark .about-card {
     background-color: #343a40; /* Fondo gris oscuro para la card */
 }
