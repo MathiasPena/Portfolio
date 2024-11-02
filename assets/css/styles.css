@@ -64,14 +64,6 @@ button.btn-secondary {
     color:  #fff; /* Blanco para los íconos del botón de navegación */
 }
 
-.profile-picture {
-    margin: 20px; /* Espaciado interno */
-    border: 5px solid #007bff; /* Borde azul moderno */
-    border-radius: 50%; /* Hacer la imagen circular */
-    background-color: #f3f3f5; /* Fondo claro para resaltar la imagen */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra de profundidad */
-}
-
 /* Estilos de la línea de tiempo */
 .timeline {
     position: relative;
