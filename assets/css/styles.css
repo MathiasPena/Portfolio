@@ -238,3 +238,36 @@ body.dark .about-description p {
     color: #f8f9fa; /* Texto blanco en modo oscuro */
 }
 
+/* Tema claro para la sección de proyectos */
+body #projects .card {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    border: 1px solid #ced4da !important;
+}
+
+body #projects .btn-outline-light {
+    color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+body #projects .btn-outline-light:hover {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+}
+
+/* Tema oscuro para la sección de proyectos */
+body.dark #projects .card {
+    background-color: #343a40 !important;
+    color: #f8f9fa !important;
+    border: 1px solid #495057 !important;
+}
+
+body.dark #projects .btn-outline-light {
+    color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+}
+
+body.dark #projects .btn-outline-light:hover {
+    background-color: #ffffff !important;  /* Fondo blanco al pasar el mouse en modo oscuro */
+    color: #000000 !important; /* Texto negro al pasar el mouse en modo oscuro */
+}
