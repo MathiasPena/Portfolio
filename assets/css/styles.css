@@ -5,7 +5,7 @@ body {
 
 /* Tema claro */
 body.light {
-    background-color: #f3f3f5; /* Fondo claro */
+    background-color: #ffffff; /* Fondo claro */
     color: #212529; /* Texto oscuro */
 }
 
