@@ -15,7 +15,6 @@
 <body>
 
     <!-- Barra de navegación centrada -->
-    <!-- Barra de navegación centrada -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Mathias Pena</a>
@@ -46,21 +45,30 @@
     <p>Este portafolio está siendo actualizado. Estoy trabajando en nuevas secciones y proyectos de mas calidad.</p>
 </section>
 
-    <!-- Sección de presentación -->
-    <section id="about" class="container my-5">
-        <div class="text-center">
-            <h2 data-key="about">Sobre mí</h2>
-            <div class="profile-picture">
-                <img src="assets/images/placeholder-ip.svg" alt="Foto de Mathias Pena Heredia" class="rounded-circle"
-                    style="width: 150px; height: 150px;">
+<!-- Sección de presentación -->
+<section id="about" class="container my-5">
+    <h2 data-key="about">Sobre mí</h2>
+    <div class="card about-card">
+        <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <div class="profile-picture">
+                    <img src="assets/images/placeholder-ip.svg" alt="Foto de Mathias Pena Heredia" class="rounded-circle" style="width: 150px; height: 150px;">
+                </div>
             </div>
-            <p data-key="description_1">description_1</p>
-            <p data-key="description_2">description_2</p>
-            <p data-key="description_3">description_3</p>
-            <p data-key="description_4">description_4</p>
-            <p data-key="description_5">description_5</p>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <div class="about-description">
+                        <p data-key="description_1">description_1</p>
+                        <p data-key="description_2">description_2</p>
+                        <p data-key="description_3">description_3</p>
+                        <p data-key="description_4">description_4</p>
+                        <p data-key="description_5">description_5</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Sección de proyectos -->
     <section id="projects" class="container my-5">
@@ -143,24 +151,51 @@
         </div>
     </section>
 
-    <!-- Sección de experiencia y educación -->
-    <section id="experience" class="container my-5">
-        <h2 data-key="experience">Experiencia y Educación</h2>
-        <p data-key="education_info">Actualmente cursando la carrera de Tecnologías de la Información en UTEC,
-            enfocándome en el desarrollo web.</p>
-    </section>
+<!-- Sección de educación -->
+<section id="experience" class="container my-5">
+    <h2 class="text-center mb-5" data-key="experience.education.title">Educación</h2>
+    <div class="timeline">
+        <!-- Educación UTEC -->
+        <div class="timeline-item d-flex flex-md-row flex-column align-items-start">
+            <div class="timeline-date text-md-end me-md-4 mb-2">
+                <span class="date" data-key="experience.education.utec.dates">2021 - Presente</span>
+            </div>
+            <div class="timeline-content p-4">
+                <h4 class="mb-2" data-key="experience.education.utec.title">UTEC - Tecnologías de la Información</h4>
+                <p><strong data-key="experience.education.status">Estado:</strong> <span data-key="experience.education.utec.status">Actualmente cursando el último año</span></p>
+                <p><strong data-key="experience.education.location">Ubicación:</strong> <span data-key="experience.education.utec.location">Fray Bentos, Uruguay</span></p>
+                <p data-key="experience.education.utec.description">Desarrollo de habilidades en programación, base de datos, infraestructura, cloud, DevOps, testing, QA, diseño de software y tecnologías web. Proyecto de fin de carrera en curso.</p>
+            </div>
+        </div>
+        <!-- Educación UTU -->
+        <div class="timeline-item d-flex flex-md-row flex-column align-items-start mt-4">
+            <div class="timeline-date text-md-end me-md-4 mb-2">
+                <span class="date" data-key="experience.education.utu.dates">2018 - 2020</span>
+            </div>
+            <div class="timeline-content p-4">
+                <h4 class="mb-2" data-key="experience.education.utu.title">UTU - Bachillerato en Informática</h4>
+                <p><strong data-key="experience.education.status">Estado:</strong> <span data-key="experience.education.utu.status">Finalizado</span></p>
+                <p><strong data-key="experience.education.location">Ubicación:</strong> <span data-key="experience.education.utu.location">Fray Bentos, Uruguay</span></p>
+                <p data-key="experience.education.utu.description">Introducción a la informática. Desarrollo de habilidades en bases de datos, programación, electrónica, redes.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
 
     <!-- Sección de contacto -->
     <section id="contact" class="container my-5 text-center">
         <h2 data-key="contact">Contacto</h2>
         <p data-key="contact_info">Puedes contactarme a través de mi email o en mis redes sociales.</p>
         <div class="d-flex justify-content-center">
-            <a href="mailto:mathiaspenaheredia@gmail.com" class="btn btn-outline-light mr-3"><i
+            <a href="mailto:mathiaspenaheredia@gmail.com" class="btn btn-outline-light mr-3 boton-contacto"><i
                     class="fas fa-envelope"></i>
                 Email</a>
-            <a href="https://linkedin.com/in/mathp/" class="btn btn-outline-light mr-3" target="_blank"><i
+            <a href="https://linkedin.com/in/mathp/" class="btn btn-outline-light mr-3 boton-contacto" target="_blank"><i
                     class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/MathiasPena" class="btn btn-outline-light" target="_blank"><i
+            <a href="https://github.com/MathiasPena" class="btn btn-outline-light boton-contacto" target="_blank"><i
                     class="fab fa-github"></i> GitHub</a>
         </div>
     </section>

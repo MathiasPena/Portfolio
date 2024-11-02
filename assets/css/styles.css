@@ -4,7 +4,7 @@ body {
 
 /* Tema claro */
 body.light {
-    background-color: #f8f9fa;
+    background-color: #f3f3f5;
     color: #212529;
 }
 
@@ -14,9 +14,8 @@ body.dark {
     color: #f8f9fa;
 }
 
-
 .navbar {
-    background-color: #222;
+    background-color: #007bff; /* Cambiado a un azul moderno */
     padding: 1rem;
 }
 
@@ -29,9 +28,8 @@ body.dark {
 }
 
 i {
-    color: #0d6efd;
+    color: #0d6efd; /* Color azul para íconos */
 }
-
 
 .navbar .container {
     display: flex;
@@ -63,15 +61,173 @@ button.btn-secondary {
 }
 
 .botonnav i {
-    color:  #fff;
+    color:  #fff; /* Blanco para los íconos del botón de navegación */
 }
 
 .profile-picture {
-    margin: 10px;
-    display: inline-block;
-    border: 5px solid #f8f9fa; /* Color del borde */
-    border-radius: 50%; /* Para hacer la imagen redonda */
-    padding: 5px; /* Espacio entre el borde y la imagen */
-    background-color: #343a40; /* Color de fondo del marco */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    margin: 20px; /* Espaciado interno */
+    border: 5px solid #007bff; /* Borde azul moderno */
+    border-radius: 50%; /* Hacer la imagen circular */
+    background-color: #f3f3f5; /* Fondo claro para resaltar la imagen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra de profundidad */
 }
+
+/* Estilos de la línea de tiempo */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 4px;
+    background-color: #007bff; /* Azul para la línea de la cronología */
+    border-radius: 4px;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline-date {
+    font-size: 1rem;
+    color: #6c757d; /* Color gris suave */
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.timeline-content {
+    background-color: #ffffff; /* Blanco para el contenido en modo claro */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-content h4 {
+    color: #007bff; /* Azul para los títulos */
+}
+
+.date {
+    font-size: 0.9rem;
+}
+
+/* Modo oscuro */
+body.dark .navbar {
+    background-color: #222; /* Navbar oscuro */
+}
+
+body.dark .timeline:before {
+    background-color: #007bff; /* Azul para la línea de la cronología en modo oscuro */
+}
+
+body.dark .timeline-content {
+    background-color: #495057; /* Fondo gris oscuro para el contenido en modo oscuro */
+}
+
+body.dark .timeline-date {
+    color: #adb5bd; /* Color de texto gris claro para las fechas en modo oscuro */
+}
+
+body.dark .timeline-content h4 {
+    color: #ffffff; /* Azul brillante para los títulos en modo oscuro */
+}
+
+h2 {
+    margin: 15px;
+    text-align: center;
+    color: #007bff; /* Azul para los títulos de sección */
+}
+
+/* En modo oscuro, títulos se adaptan */
+body.dark h2 {
+    color: #f8f9fa; /* Blanco para títulos en modo oscuro */
+}
+
+/* En modo oscuro, títulos se adaptan */
+body.dark h4 {
+    color: #f8f9fa; /* Blanco para títulos en modo oscuro */
+}
+
+.boton-contacto {
+    margin: 5px;
+    border: 2px solid #007bff; /* Borde azul */
+    color: #007bff; /* Texto azul */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones para el hover */
+}
+
+.boton-contacto:hover {
+    background-color: #007bff; /* Fondo azul al pasar el mouse */
+    color: #fff; /* Texto blanco al pasar el mouse */
+}
+
+/* Estilos específicos para el modo oscuro */
+body.dark .boton-contacto {
+    border-color: #fff; /* Borde blanco en modo oscuro */
+    color: #fff; /* Texto blanco en modo oscuro */
+}
+
+body.dark .boton-contacto:hover {
+    background-color: #ffffff; /* Fondo azul al pasar el mouse en modo oscuro */
+    color: #000000; /* Texto blanco al pasar el mouse en modo oscuro */
+}
+
+/* Estilos para la sección Sobre mí */
+#about {
+    padding: 50px 20px; /* Espaciado superior e inferior */
+}
+
+.about-card {
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    background-color: #ffffff; /* Fondo blanco */
+    transition: transform 0.3s; /* Efecto al pasar el mouse */
+}
+
+.about-card:hover {
+    transform: translateY(-5px); /* Elevación al pasar el mouse */
+}
+
+.profile-picture {
+    margin: 20px; /* Espaciado interno */
+    border: 5px solid #007bff; /* Borde azul moderno */
+    border-radius: 50%; /* Hacer la imagen circular */
+    background-color: #f3f3f5; /* Fondo claro para resaltar la imagen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra de profundidad */
+}
+
+.about-description {
+    color: #212529; /* Color de texto oscuro */
+}
+
+.about-description p {
+    line-height: 1.6; /* Espaciado de línea para mejor legibilidad */
+    margin: 10px 0; /* Espacio vertical entre párrafos */
+}
+
+/* Estilos en modo oscuro */
+
+
+body.dark .about-card {
+    background-color: #343a40; /* Fondo gris oscuro para la card */
+}
+
+body.dark .profile-picture {
+    border-color: #ffffff; /* Borde blanco en modo oscuro */
+}
+
+body.dark .about-description p {
+    color: #f8f9fa; /* Texto blanco en modo oscuro */
+}
+
