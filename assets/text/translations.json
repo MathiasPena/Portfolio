@@ -30,7 +30,18 @@
         "experience.education.utu.status": "Finalizado",
         "experience.education.utu.location": "Fray Bentos, Uruguay",
         "experience.education.utu.description": "Introducción a la informática. Desarrollo de habilidades en bases de datos, programación, electrónica, redes.",
-        "experience.education.utu.dates": "2018 - 2020"
+        "experience.education.utu.dates": "2018 - 2020",
+
+        "skill_java": "Java descripción",
+        "skill_javascript": "JavaScript descripción",
+        "skill_python": "Python descripción",
+        "skill_kotlin": "Kotlin descripción",
+        "skill_html": "HTML descripción",
+        "skill_css": "CSS descripción",
+        "skill_bootstrap": "Bootstrap descripción",
+        "skill_sql": "SQL descripción",
+        "skill_mongodb": "MongoDB descripción",
+        "skill_git": "Git descripción"
     },
     "en": {
         "about": "About",
@@ -63,6 +74,17 @@
         "experience.education.utu.status": "Completed",
         "experience.education.utu.location": "Fray Bentos, Uruguay",
         "experience.education.utu.description": "Introduction to computer science. Development of foundational skills in databases, programming, electronics, networks.",
-        "experience.education.utu.dates": "2018 - 2020"
+        "experience.education.utu.dates": "2018 - 2020",
+
+        "skill_java": "Java description",
+        "skill_javascript": "JavaScript description",
+        "skill_python": "Python description",
+        "skill_kotlin": "Kotlin description",
+        "skill_html": "HTML description",
+        "skill_css": "CSS description",
+        "skill_bootstrap": "Bootstrap description",
+        "skill_sql": "SQL description",
+        "skill_mongodb": "MongoDB description",
+        "skill_git": "Git description"
     }
 }

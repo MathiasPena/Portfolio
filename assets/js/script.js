@@ -42,6 +42,7 @@ window.addEventListener("load", function() {
     }
 });
 
+
 // Cargar las traducciones al iniciar
 document.addEventListener("DOMContentLoaded", loadTranslations);
 

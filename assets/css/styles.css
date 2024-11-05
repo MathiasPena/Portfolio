@@ -271,3 +271,79 @@ body.dark #projects .btn-outline-light:hover {
     background-color: #ffffff !important;  /* Fondo blanco al pasar el mouse en modo oscuro */
     color: #000000 !important; /* Texto negro al pasar el mouse en modo oscuro */
 }
+
+.skill-circle {
+    --size: 70px; /* Tamaño del círculo */
+    --track-color: #e0e0e000; /* Color del fondo */
+    --fill-color: #007bff; /* Color del porcentaje */
+
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%; /* Forma circular */
+    background: conic-gradient(
+        var(--fill-color) calc(var(--percentage) * 1%), /* Porcentaje de llenado */
+        var(--track-color) 0 /* Color del resto */
+    );
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    position: relative;
+    margin: 0 auto; /* Centrar el círculo dentro de su contenedor */
+    transition: transform 0.3s ease; /* Transición suave al escalar */
+}
+
+/* Capa interna del círculo */
+.skill-circle::before {
+    content: '';
+    width: calc(var(--size) - 10px); /* Tamaño un poco más pequeño */
+    height: calc(var(--size) - 10px);
+    background-color: #ffffff; /* Color de fondo */
+    border-radius: 50%; /* Forma circular */
+    position: absolute; /* Posición absoluta para superponer */
+}
+
+body.dark .skill-circle::before {
+    background-color: #343a40; /* Fondo oscuro en modo oscuro */
+}
+
+
+/* Estilo del icono */
+.skill-icon {
+    color: var(--fill-color); /* Color del icono */
+    position: relative; /* Posicionamiento relativo */
+    z-index: 1; /* Asegurar que esté sobre el círculo */
+    transition: transform 0.3s ease; /* Transición suave al escalar */
+}
+
+/* Efecto de escala al pasar el mouse */
+.skill-circle:hover  {
+    transform: scale(1.1); /* Escala al pasar el mouse */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posiciona el tooltip encima del elemento */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
