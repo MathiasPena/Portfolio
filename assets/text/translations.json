@@ -32,16 +32,17 @@
         "experience.education.utu.description": "Introducción a la informática. Desarrollo de habilidades en bases de datos, programación, electrónica, redes.",
         "experience.education.utu.dates": "2018 - 2020",
 
-        "skill_java": "Java descripción",
-        "skill_javascript": "JavaScript descripción",
-        "skill_python": "Python descripción",
-        "skill_kotlin": "Kotlin descripción",
-        "skill_html": "HTML descripción",
-        "skill_css": "CSS descripción",
-        "skill_bootstrap": "Bootstrap descripción",
-        "skill_sql": "SQL descripción",
-        "skill_mongodb": "MongoDB descripción",
-        "skill_git": "Git descripción"
+         "skill_java": "Desarrollo backend con Java, APIs, JPA, OOP, programación funcional, estructuras de datos y uso de hilos.",
+         "skill_javascript": "Desarrollo de páginas web dinámicas y responsivas, manipulación del DOM y consumo de APIs.",
+         "skill_python": "Análisis de datos, limpieza, transformación y entrenamiento de modelos de machine learning.",
+         "skill_kotlin": "Desarrollo Android, consumo de APIs, gestión de fragmentos y diseño de interfaces con XML.",
+         "skill_html": "Estructuración de contenido web y creación de páginas estáticas y colaborativas.",
+         "skill_css": "Diseño y estilización responsiva de páginas web, uso de Flexbox y Grid.",
+         "skill_bootstrap": "Diseño rápido y responsivo de páginas web con componentes y sistema de rejillas.",
+         "skill_sql": "Consultas SQL, CRUD de tablas, joins, índices y gestión de claves en Oracle y MySQL.",
+         "skill_mongodb": "Manejo de MongoDB para operaciones CRUD con colecciones y documentos JSON.",
+         "skill_git": "Control de versiones con Git, uso de ramas y convenciones de Git flow."
+
     },
     "en": {
         "about": "About",
@@ -76,15 +77,16 @@
         "experience.education.utu.description": "Introduction to computer science. Development of foundational skills in databases, programming, electronics, networks.",
         "experience.education.utu.dates": "2018 - 2020",
 
-        "skill_java": "Java description",
-        "skill_javascript": "JavaScript description",
-        "skill_python": "Python description",
-        "skill_kotlin": "Kotlin description",
-        "skill_html": "HTML description",
-        "skill_css": "CSS description",
-        "skill_bootstrap": "Bootstrap description",
-        "skill_sql": "SQL description",
-        "skill_mongodb": "MongoDB description",
-        "skill_git": "Git description"
+        "skill_java": "Backend development with Java, APIs, JPA, OOP, functional programming, data structures, and multithreading.",
+        "skill_javascript": "Development of dynamic and responsive web pages, DOM manipulation, and API consumption.",
+        "skill_python": "Data analysis, cleaning, transformation, and machine learning model training.",
+        "skill_kotlin": "Android development, API consumption, fragment management, and UI design with XML.",
+        "skill_html": "Web content structuring and creation of static and collaborative pages.",
+        "skill_css": "Responsive web design and styling, with Flexbox and Grid layout systems.",
+        "skill_bootstrap": "Fast and responsive web design with components and grid system.",
+        "skill_sql": "SQL queries, table CRUD operations, joins, indexes, and key management in Oracle and MySQL.",
+        "skill_mongodb": "Handling MongoDB for CRUD operations with collections and JSON documents.",
+        "skill_git": "Version control with Git, branch management, and Git flow conventions."
+
     }
 }
