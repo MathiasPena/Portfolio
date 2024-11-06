@@ -31,7 +31,7 @@ function toggleTheme() {
 }
 
 function toggleForm() {
-    var form = document.getElementById("contactForm");
+    let form = document.getElementById("contactForm");
     form.style.display = form.style.display === "none" ? "block" : "none";
 }
 
