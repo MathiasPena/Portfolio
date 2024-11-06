@@ -30,6 +30,11 @@ function toggleTheme() {
     }
 }
 
+function toggleForm() {
+    var form = document.getElementById("contactForm");
+    form.style.display = form.style.display === "none" ? "block" : "none";
+}
+
 // Cargar el tema guardado al cargar la página
 window.addEventListener("load", function() {
     const savedTheme = localStorage.getItem('theme');
