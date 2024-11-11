@@ -30,9 +30,19 @@ function toggleTheme() {
     }
 }
 
+// Función para mostrar/ocultar el formulario con animación
 function toggleForm() {
     let form = document.getElementById("contactForm");
-    form.style.display = form.style.display === "none" ? "block" : "none";
+
+    // Si el formulario está oculto, lo mostramos con la animación
+    if (form.style.display === "none" || !form.style.display) {
+        form.style.display = "block";
+        setTimeout(() => form.classList.add("show"), 10); // Añadir la clase para animación
+        form.scrollIntoView({ behavior: "smooth" });
+    } else {
+        form.classList.remove("show"); // Remover la clase para la animación
+        setTimeout(() => form.style.display = "none", 500); // Esperar a que termine la animación y luego ocultarlo
+    }
 }
 
 // Cargar el tema guardado al cargar la página
@@ -47,7 +57,5 @@ window.addEventListener("load", function() {
     }
 });
 
-
 // Cargar las traducciones al iniciar
 document.addEventListener("DOMContentLoaded", loadTranslations);
-

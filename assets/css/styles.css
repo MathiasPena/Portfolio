@@ -347,3 +347,18 @@ body.dark .skill-circle::before {
     visibility: visible;
     opacity: 1;
   }
+
+  /* Animación suave para desplegar el formulario */
+#contactForm {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    display: none; /* Aseguramos que inicialmente no se muestre */
+}
+
+/* Mostrar el formulario con la animación */
+#contactForm.show {
+    display: block; /* Cambiamos a display:block cuando se despliega */
+    opacity: 1;
+    transform: translateY(0);
+}
