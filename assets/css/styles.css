@@ -407,15 +407,20 @@ body.dark .skill-circle::before {
 }
 
 .faq-answer {
-    display: none;
     margin-top: 10px;
     font-size: 1rem;
     color: #495057;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
 }
 
 /* Estilo cuando la respuesta está visible */
 .faq-item.active .faq-answer {
     display: block;
+    max-height: 200px; /* Ajusta según el contenido */
+    opacity: 1;
 }
 
 .faq-question:hover {
@@ -459,3 +464,4 @@ body.dark .faq-answer p {
 body.dark .faq-question:hover {
     background-color: #6c757d;
 }
+

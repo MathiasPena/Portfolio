@@ -57,11 +57,11 @@ window.addEventListener("load", function() {
     }
 });
 
- // Función para manejar el despliegue de las respuestas
- document.querySelectorAll('.faq-question').forEach(item => {
+// Función para manejar el despliegue de las respuestas
+document.querySelectorAll('.faq-question').forEach(item => {
     item.addEventListener('click', () => {
-        const answer = item.nextElementSibling;
-        answer.style.display = answer.style.display === 'none' || answer.style.display === '' ? 'block' : 'none';
+        const faqItem = item.parentElement;
+        faqItem.classList.toggle('active');
     });
 });
 
