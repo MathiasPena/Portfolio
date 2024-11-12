@@ -1,0 +1,46 @@
+/* skills.css */
+
+/* Skill circle */
+.skill-circle {
+    --size: 70px;
+    --track-color: #e0e0e000;
+    --fill-color: #007bff;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background: conic-gradient(
+        var(--fill-color) calc(var(--percentage) * 1%),
+        var(--track-color) 0
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+.skill-circle::before {
+    content: '';
+    width: calc(var(--size) - 10px);
+    height: calc(var(--size) - 10px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+body.dark .skill-circle::before {
+    background-color: #343a40;
+}
+
+.skill-icon {
+    color: var(--fill-color);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.skill-circle:hover  {
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}

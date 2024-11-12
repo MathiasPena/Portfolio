@@ -1,0 +1,62 @@
+/* components.css */
+
+/* Estilos de la barra de navegación */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+#navbarNav {
+    flex-grow: 1;
+}
+
+#navbarNav .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Estilos de las cards */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.buttonnav {
+    height: auto;
+    margin: 5px;
+}
+
+.buttonnav i {
+    color: #fff;
+}
+
+/* Estilo de botones secundarios */
+button.btn-secondary {
+    margin-left: auto;
+}
+
+/* Estilos de botones de contacto */
+.boton-contacto {
+    margin: 5px;
+    border: 2px solid #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-contacto:hover {
+    background-color: #007bff;
+    color: #fff;
+}

@@ -1,0 +1,52 @@
+/* themes.css */
+
+/* Tema claro */
+body.light {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+body.light .navbar {
+    background-color: #007bff;
+}
+
+/* Tema oscuro */
+body.dark {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+body.dark .navbar {
+    background-color: #222;
+}
+
+body.dark .timeline:before {
+    background-color: #007bff;
+}
+
+body.dark .timeline-content {
+    background-color: #495057;
+}
+
+body.dark .timeline-date {
+    color: #adb5bd;
+}
+
+body.dark .timeline-content h4 {
+    color: #ffffff;
+}
+
+body.dark .footer {
+    background-color: #222;
+}
+
+body.dark .faq-question {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+body.dark .faq-answer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    border-left: 4px solid #007bff;
+}

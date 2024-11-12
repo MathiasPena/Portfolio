@@ -1,0 +1,52 @@
+/* timeline.css */
+
+/* Estilos de la línea de tiempo */
+.timeline {
+    position: relative;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 4px;
+    background-color: #007bff;
+    border-radius: 4px;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline-date {
+    font-size: 1rem;
+    color: #6c757d;
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.timeline-content {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-content h4 {
+    color: #007bff;
+}
+
+.date {
+    font-size: 0.9rem;
+}

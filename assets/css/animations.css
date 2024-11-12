@@ -1,0 +1,22 @@
+/* animations.css */
+
+/* Animación suave para desplegar el formulario */
+#contactForm {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.3s ease-out;
+}
+
+#contactForm.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animación para el botón */
+.boton-contacto {
+    transition: all 0.3s ease;
+}
+
+.boton-contacto:hover {
+    transform: scale(1.05);
+}
