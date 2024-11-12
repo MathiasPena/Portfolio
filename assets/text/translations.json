@@ -41,7 +41,16 @@
          "skill_bootstrap": "Diseño rápido y responsivo de páginas web con componentes y sistema de rejillas.",
          "skill_sql": "Consultas SQL, CRUD de tablas, joins, índices y gestión de claves en Oracle y MySQL.",
          "skill_mongodb": "Manejo de MongoDB para operaciones CRUD con colecciones y documentos JSON.",
-         "skill_git": "Control de versiones con Git, uso de ramas y convenciones de Git flow."
+         "skill_git": "Control de versiones con Git, uso de ramas y convenciones de Git flow.",
+
+        "faq.question1": "¿Qué tecnologías se utilizaron para construir este portafolio?",
+        "faq.answer1": "Este portafolio se desarrolló con HTML, CSS y JavaScript para la estructura, el estilo y la interacción. Además, se usó Bootstrap para facilitar el diseño responsive y mejorar la accesibilidad en diferentes dispositivos",
+        "faq.question2": "¿Puedo acceder al código de este portafolio?",
+        "faq.answer2": "Sí, el código fuente está disponible en la sección de Proyectos, donde puedes revisarlo y explorar cómo está construido.",
+        "faq.question3": "¿En qué te basaste para diseñar este portafolio?",
+        "faq.answer3": "Este portafolio fue diseñado completamente desde cero, inspirado en estilos específicos para distintas secciones. Me enfoqué en crear un diseño simple, funcional y estético, inspirado en las mejores prácticas de presentación profesional.",
+        "faq.question4": "¿Puedo usar este portafolio como plantilla?",
+        "faq.answer4": "Sí, puedes usarlo como referencia o plantilla. Solo te pido que me avises si decides utilizarlo, ¡así puedo ver cómo lo adaptaste!"
 
     },
     "en": {
@@ -86,7 +95,16 @@
         "skill_bootstrap": "Fast and responsive web design with components and grid system.",
         "skill_sql": "SQL queries, table CRUD operations, joins, indexes, and key management in Oracle and MySQL.",
         "skill_mongodb": "Handling MongoDB for CRUD operations with collections and JSON documents.",
-        "skill_git": "Version control with Git, branch management, and Git flow conventions."
+        "skill_git": "Version control with Git, branch management, and Git flow conventions.",
 
+        "faq.question1": "What technologies were used to build this portfolio?",
+        "faq.answer1": "This portfolio was developed using HTML, CSS, and JavaScript for structure, styling, and interaction. Additionally, Bootstrap was used to facilitate responsive design and improve accessibility across different devices.",
+        "faq.question2": "Can I access the code for this portfolio?",
+        "faq.answer2": "Yes, the source code is available in the Projects section, where you can review it and explore how it's built.",
+        "faq.question3": "What inspired you in designing this portfolio?",
+        "faq.answer3": "This portfolio was designed completely from scratch, inspired by specific styles for various sections. I focused on creating a simple, functional, and aesthetic design, drawing from best practices in professional presentation.",
+        "faq.question4": "Can I use this portfolio as a template?",
+        "faq.answer4": "Yes, you can use it as a reference or template. I only ask that you let me know if you decide to use it so I can see how you adapted it!"
+    
     }
 }
