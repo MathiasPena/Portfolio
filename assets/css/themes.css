@@ -1,45 +1,142 @@
-/* themes.css */
-
 /* Tema claro */
 body.light {
     background-color: #ffffff;
+    /* Fondo claro */
     color: #212529;
-}
-
-body.light .navbar {
-    background-color: #007bff;
+    /* Texto oscuro */
 }
 
 /* Tema oscuro */
 body.dark {
     background-color: #343a40;
+    /* Fondo oscuro */
     color: #f8f9fa;
+    /* Texto claro */
 }
 
+/* Estilos para el modo oscuro */
 body.dark .navbar {
     background-color: #222;
+    /* Navbar oscuro */
 }
 
 body.dark .timeline:before {
     background-color: #007bff;
+    /* Azul para la línea de la cronología en modo oscuro */
 }
 
 body.dark .timeline-content {
     background-color: #495057;
+    /* Fondo gris oscuro para el contenido en modo oscuro */
 }
 
 body.dark .timeline-date {
     color: #adb5bd;
+    /* Color de texto gris claro para fechas en modo oscuro */
 }
 
 body.dark .timeline-content h4 {
     color: #ffffff;
+    /* Blanco para títulos en modo oscuro */
 }
 
-body.dark .footer {
-    background-color: #222;
+/* Títulos en modo oscuro */
+body.dark h2 {
+    color: #f8f9fa;
+    /* Blanco para títulos en modo oscuro */
 }
 
+/* Títulos h4 en modo oscuro */
+body.dark h4 {
+    color: #f8f9fa;
+    /* Blanco para títulos en modo oscuro */
+}
+
+/* Estilos específicos para el modo oscuro */
+body.dark .boton-contacto {
+    border-color: #fff;
+    /* Borde blanco en modo oscuro */
+    color: #fff;
+    /* Texto blanco en modo oscuro */
+}
+
+body.dark .boton-contacto:hover {
+    background-color: #ffffff;
+    /* Fondo blanco al pasar el mouse en modo oscuro */
+    color: #000000;
+    /* Texto negro al pasar el mouse en modo oscuro */
+}
+
+/* Estilos en modo oscuro */
+body.dark .about-card {
+    background-color: #343a40;
+    /* Fondo gris oscuro para la card */
+}
+
+body.dark .profile-picture {
+    border-color: #ffffff;
+    /* Borde blanco en modo oscuro */
+}
+
+body.dark .about-description p {
+    color: #f8f9fa;
+    /* Texto blanco en modo oscuro */
+}
+
+/* Tema claro para la sección de proyectos */
+body #projects .card {
+    background-color: #f8f9fa !important;
+    color: #212529 !important;
+    border: 1px solid #ced4da !important;
+}
+
+body #projects .btn-outline-light {
+    color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+body #projects .btn-outline-light:hover {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+}
+
+/* Tema oscuro para la sección de proyectos */
+body.dark #projects .card {
+    background-color: #343a40 !important;
+    color: #f8f9fa !important;
+    border: 1px solid #495057 !important;
+}
+
+body.dark #projects .btn-outline-light {
+    color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+}
+
+body.dark #projects .btn-outline-light:hover {
+    background-color: #ffffff !important;
+    /* Fondo blanco al pasar el mouse en modo oscuro */
+    color: #000000 !important;
+    /* Texto negro al pasar el mouse en modo oscuro */
+}
+
+body.dark .skill-circle::before {
+    background-color: #343a40;
+    /* Fondo oscuro en modo oscuro */
+}
+
+
+body.light .faq-answer {
+    background-color: #ffffff;
+    color: #212529;
+    border-left: 4px solid #007bff;
+}
+
+body.light .faq-answer p {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+/* Estilos para el tema Dark */
 body.dark .faq-question {
     background-color: #495057;
     color: #f8f9fa;
@@ -49,4 +146,13 @@ body.dark .faq-answer {
     background-color: #343a40;
     color: #f8f9fa;
     border-left: 4px solid #007bff;
+}
+
+body.dark .faq-answer p {
+    margin: 0;
+    padding: 10px 15px;
+}
+
+body.dark .faq-question:hover {
+    background-color: #6c757d;
 }
