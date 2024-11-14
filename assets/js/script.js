@@ -51,8 +51,8 @@ window.addEventListener("load", function() {
     if (savedTheme) {
         document.body.classList.add(savedTheme);
     } else {
-        // Si no hay tema guardado, establecer tema claro por defecto
-        document.body.classList.add('light');
+        // Si no hay tema guardado, establecer tema oscuro por defecto
+        document.body.classList.add('dark');
         localStorage.setItem('theme', 'dark');
     }
 });

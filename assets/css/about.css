@@ -1,0 +1,75 @@
+/* Estilos para la sección Sobre mí */
+#about {
+    padding: 50px 20px;
+    /* Espaciado superior e inferior */
+}
+
+.about-card {
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Sombra para profundidad */
+    background-color: #ffffff;
+    /* Fondo blanco */
+    transition: transform 0.3s;
+    /* Efecto al pasar el mouse */
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+    /* Elevación al pasar el mouse */
+}
+
+/* Estilos para la imagen del perfil */
+.profile-picture {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid #ffffff; /* Borde blanco para resaltar la imagen */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor */
+    transition: all 0.3s ease-in-out; /* Animación suave para transición */
+}
+
+/* Efecto hover en la imagen */
+.profile-picture:hover {
+    transform: scale(1.1); /* Aumento más notorio de la imagen */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada para resaltar */
+    border: 2px solid #000000; /* Borde azul moderno en hover */
+}
+
+
+/* Descripción de la sección Sobre mí */
+.about-description {
+    color: #212529;
+    /* Color de texto oscuro */
+}
+
+.about-description p {
+    line-height: 1.6;
+    /* Espaciado de línea para mejor legibilidad */
+    margin: 10px 0;
+    /* Espacio vertical entre párrafos */
+}
+
+/* Estilos responsivos con Bootstrap */
+@media (max-width: 768px) {
+    .profile-picture {
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Para dispositivos extra pequeños */
+@media (max-width: 576px) {
+    .profile-picture {
+        width: 250px;
+        height: 250px;
+    }
+}

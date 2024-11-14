@@ -191,54 +191,7 @@ h2 {
     /* Texto blanco al pasar el mouse */
 }
 
-/* Estilos para la sección Sobre mí */
-#about {
-    padding: 50px 20px;
-    /* Espaciado superior e inferior */
-}
 
-.about-card {
-    border-radius: 10px;
-    /* Bordes redondeados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    /* Sombra para profundidad */
-    background-color: #ffffff;
-    /* Fondo blanco */
-    transition: transform 0.3s;
-    /* Efecto al pasar el mouse */
-}
-
-.about-card:hover {
-    transform: translateY(-5px);
-    /* Elevación al pasar el mouse */
-}
-
-/* Estilos para la imagen de perfil */
-.profile-picture {
-    margin: 20px;
-    /* Espaciado interno */
-    border: 5px solid #007bff;
-    /* Borde azul moderno */
-    border-radius: 50%;
-    /* Hacer la imagen circular */
-    background-color: #f3f3f5;
-    /* Fondo claro para resaltar la imagen */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    /* Sombra de profundidad */
-}
-
-/* Descripción de la sección Sobre mí */
-.about-description {
-    color: #212529;
-    /* Color de texto oscuro */
-}
-
-.about-description p {
-    line-height: 1.6;
-    /* Espaciado de línea para mejor legibilidad */
-    margin: 10px 0;
-    /* Espacio vertical entre párrafos */
-}
 
 .skill-circle {
     --size: 70px;

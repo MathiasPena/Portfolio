@@ -156,3 +156,7 @@ body.dark .faq-answer p {
 body.dark .faq-question:hover {
     background-color: #6c757d;
 }
+
+body.light .faq-question:hover {
+    background-color: #d0d2d3;
+}
