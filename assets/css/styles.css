@@ -22,8 +22,19 @@ body {
     /* Escala al pasar el mouse */
 }
 
+.navbicon {
+    color: #ffffff !important;
+}
+
 /* Estilos para íconos */
 i {
+    color: #403430;
+    /* Color azul para los íconos */
+}
+
+
+/* Estilos para íconos */
+body.dark i {
     color: #0d6efd;
     /* Color azul para los íconos */
 }
@@ -102,10 +113,14 @@ button.btn-secondary {
     /* Alineado a la izquierda */
     width: 4px;
     /* Ancho de la línea */
-    background-color: #007bff;
+    background-color: #403430;
     /* Azul para la línea de la cronología */
     border-radius: 4px;
     /* Bordes redondeados */
+}
+
+body.dark .timeline::before {
+    background-color: #007bff;
 }
 
 /* Estilos para los elementos de la línea de tiempo */
@@ -149,8 +164,12 @@ button.btn-secondary {
     /* Sombra más intensa al pasar el mouse */
 }
 
+body.dark .timeline-content h4{
+  color: #007bff;
+}
+
 .timeline-content h4 {
-    color: #007bff;
+    color: #403430;
     /* Azul para los títulos */
 }
 
@@ -166,8 +185,12 @@ h2 {
     /* Margen alrededor */
     text-align: center;
     /* Centrado */
-    color: #007bff;
+    color: #403430;
     /* Azul para títulos de sección */
+}
+
+body.dark h2 {
+    color: #007bff;
 }
 
 
@@ -176,21 +199,29 @@ h2 {
 .boton-contacto {
     margin: 5px;
     /* Margen alrededor */
-    border: 2px solid #007bff;
+    border: 2px solid #403430;
     /* Borde azul */
-    color: #007bff;
+    color: #403430;
     /* Texto azul */
     transition: background-color 0.3s, color 0.3s;
     /* Transiciones para el hover */
 }
 
 .boton-contacto:hover {
-    background-color: #007bff;
+    background-color: #403430;
     /* Fondo azul al pasar el mouse */
     color: #fff;
     /* Texto blanco al pasar el mouse */
 }
 
+.boton-contacto:hover i{
+    color: #fff;
+    /* Texto blanco al pasar el mouse */
+}
+
+body.dark .boton-contacto:hover i {
+    color: #007bff;
+}
 
 
 .skill-circle {
@@ -198,7 +229,7 @@ h2 {
     /* Tamaño del círculo */
     --track-color: #e0e0e000;
     /* Color del fondo */
-    --fill-color: #007bff;
+    --fill-color: #403430;
     /* Color del porcentaje */
 
     width: var(--size);
@@ -220,6 +251,10 @@ h2 {
     /* Centrar el círculo dentro de su contenedor */
     transition: transform 0.3s ease;
     /* Transición suave al escalar */
+}
+
+body.dark .skill-circle {
+    --fill-color: #007bff;
 }
 
 /* Capa interna del círculo */

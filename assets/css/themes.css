@@ -74,7 +74,7 @@ body.dark .about-card {
 }
 
 body.dark .profile-picture {
-    border-color: #ffffff;
+    border-color: #585858;
     /* Borde blanco en modo oscuro */
 }
 
@@ -91,12 +91,12 @@ body #projects .card {
 }
 
 body #projects .btn-outline-light {
-    color: #007bff !important;
-    border-color: #007bff !important;
+    color: #403430 !important;
+    border-color: #403430 !important;
 }
 
 body #projects .btn-outline-light:hover {
-    background-color: #007bff !important;
+    background-color: #403430 !important;
     color: #ffffff !important;
 }
 
@@ -128,7 +128,7 @@ body.dark .skill-circle::before {
 body.light .faq-answer {
     background-color: #ffffff;
     color: #212529;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #403430;
 }
 
 body.light .faq-answer p {
