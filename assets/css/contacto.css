@@ -1,0 +1,46 @@
+/* Estilos para botones de contacto */
+.boton-contacto {
+    margin: 5px;
+    /* Margen alrededor */
+    border: 2px solid #403430;
+    /* Borde azul */
+    color: #403430;
+    /* Texto azul */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transiciones para el hover */
+}
+
+.boton-contacto:hover {
+    background-color: #403430;
+    /* Fondo azul al pasar el mouse */
+    color: #fff;
+    /* Texto blanco al pasar el mouse */
+}
+
+.boton-contacto:hover i{
+    color: #fff;
+    /* Texto blanco al pasar el mouse */
+}
+
+body.dark .boton-contacto:hover i {
+    color: #007bff;
+}
+
+
+
+/* Animación suave para desplegar el formulario */
+#contactForm {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    display: none;
+    /* Aseguramos que inicialmente no se muestre */
+}
+
+/* Mostrar el formulario con la animación */
+#contactForm.show {
+    display: block;
+    /* Cambiamos a display:block cuando se despliega */
+    opacity: 1;
+    transform: translateY(0);
+}

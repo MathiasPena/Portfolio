@@ -1,0 +1,104 @@
+
+/* Estilos de la línea de tiempo */
+.timeline {
+    position: relative;
+    /* Posicionamiento relativo */
+    padding-left: 30px;
+    /* Espacio a la izquierda */
+    margin-top: 20px;
+    /* Margen superior */
+}
+
+/* Línea de tiempo antes de los elementos */
+.timeline:before {
+    content: '';
+    /* Contenido vacío */
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: 0;
+    /* Alineado arriba */
+    bottom: 0;
+    /* Alineado abajo */
+    left: 20px;
+    /* Alineado a la izquierda */
+    width: 4px;
+    /* Ancho de la línea */
+    background-color: #403430;
+    /* Azul para la línea de la cronología */
+    border-radius: 4px;
+    /* Bordes redondeados */
+}
+
+body.dark .timeline::before {
+    background-color: #007bff;
+}
+
+/* Estilos para los elementos de la línea de tiempo */
+.timeline-item {
+    position: relative;
+    /* Posicionamiento relativo */
+    padding-left: 20px;
+    /* Espacio a la izquierda */
+}
+
+/* Estilos para las fechas de la línea de tiempo */
+.timeline-date {
+    font-size: 1rem;
+    /* Tamaño de fuente */
+    color: #6c757d;
+    /* Color gris suave */
+    min-width: 100px;
+    /* Ancho mínimo */
+    font-weight: bold;
+    /* Negrita */
+}
+
+/* Contenido de la línea de tiempo */
+.timeline-content {
+    background-color: #ffffff;
+    /* Blanco para el contenido en modo claro */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra para profundidad */
+    width: 100%;
+    /* Ancho completo */
+    transition: transform 0.3s ease;
+    /* Transición suave al transformar */
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    /* Eleva al pasar el mouse */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    /* Sombra más intensa al pasar el mouse */
+}
+
+body.dark .timeline-content h4{
+  color: #007bff;
+}
+
+.timeline-content h4 {
+    color: #403430;
+    /* Azul para los títulos */
+}
+
+.date {
+    font-size: 0.9rem;
+    /* Tamaño de fuente para la fecha */
+}
+
+
+/* Estilos de títulos */
+h2 {
+    margin: 15px;
+    /* Margen alrededor */
+    text-align: center;
+    /* Centrado */
+    color: #403430;
+    /* Azul para títulos de sección */
+}
+
+body.dark h2 {
+    color: #007bff;
+}

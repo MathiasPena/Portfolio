@@ -1,0 +1,61 @@
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #007bff;
+    /* Azul moderno para la navbar */
+    padding: 1rem;
+    /* Espaciado interno */
+}
+
+.navbicon {
+    color: #ffffff !important;
+}
+
+/* Estilos del contenedor de la barra de navegación */
+.navbar .container {
+    display: flex;
+    /* Flexbox para el contenedor */
+    align-items: center;
+    /* Centrar verticalmente */
+    justify-content: space-between;
+    /* Espacio entre elementos */
+}
+
+/* Estilos para el logo o marca de la navbar */
+.navbar-brand {
+    margin-right: auto;
+    /* Margen a la derecha */
+}
+
+/* Estilos para el menú de la navbar */
+#navbarNav {
+    flex-grow: 1;
+    /* Expande el navbar */
+}
+
+#navbarNav .navbar-nav {
+    display: flex;
+    /* Flexbox para los elementos de navegación */
+    justify-content: center;
+    /* Centrar horizontalmente */
+    width: 100%;
+    /* Ancho completo */
+}
+
+/* Estilo de botones secundarios */
+button.btn-secondary {
+    margin-left: auto;
+    /* Margen izquierdo automático */
+}
+
+/* Estilos de los botones de navegación */
+.botonnav {
+    height: auto;
+    /* Alto automático */
+    margin: 5px;
+    /* Margen alrededor */
+}
+
+.botonnav i {
+    color: #fff;
+    /* Color blanco para íconos de botones de navegación */
+}

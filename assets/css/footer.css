@@ -1,0 +1,33 @@
+
+/* Estilos del footer */
+.footer {
+    background-color: #343a40;
+    /* Fondo azul */
+    color: #fff;
+    /* Texto blanco */
+    padding: 20px 0;
+    /* Espaciado superior e inferior */
+    text-align: center;
+    /* Centrado de texto */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    /* Espaciado entre elementos */
+    align-items: center;
+    /* Centrar verticalmente */
+    max-width: 1200px;
+    /* Ancho máximo */
+    margin: 0 auto;
+    /* Centrar el contenedor */
+    padding: 0 15px;
+    /* Espaciado interno */
+}
+
+.footer-text {
+    margin: 0;
+    /* Eliminar margen */
+    font-size: 1rem;
+    /* Tamaño de fuente */
+}
