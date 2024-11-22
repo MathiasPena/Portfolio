@@ -3,7 +3,7 @@
 ¡Bienvenido a mi portafolio! Aquí encontrarás una muestra de mis proyectos y habilidades como desarrollador. Mi enfoque está en el desarrollo backend y frontend, con experiencia en tecnologías como Java, JavaScript, HTML, CSS, y frameworks adicionales. También estoy en constante aprendizaje para ampliar mi stack y fortalecer mis habilidades en el desarrollo web.
 
 ## 🧑 Sobre mí
-Soy un desarrollador uruguayo con experiencia en varios lenguajes de programación y tecnologías. Actualmente, me enfoco en mejorar mis habilidades en desarrollo full stack y busco oportunidades en el sector tecnológico.
+Soy un desarrollador con experiencia en varios lenguajes de programación y tecnologías. Actualmente, me enfoco en mejorar mis habilidades en desarrollo full stack y busco oportunidades en el sector tecnológico.
 
 ## 📂 Estructura del portafolio
 Este portafolio está organizado en secciones para facilitar la navegación:
