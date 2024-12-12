@@ -138,8 +138,8 @@ body.light .faq-answer p {
 
 /* Estilos para el tema Dark */
 body.dark .faq-question {
-    background-color: #495057;
-    color: #f8f9fa;
+    background-color: #495057 !important;
+    color: #f8f9fa !important;
 }
 
 body.dark .faq-answer {
