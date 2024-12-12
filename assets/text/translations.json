@@ -1,7 +1,5 @@
 {
     "es": {
-
-        
         "about": "Sobre mí",
         "projects": "Proyectos",
         "skills": "Habilidades",
@@ -14,43 +12,42 @@
         "description_3": "Soy un firme creyente en la colaboración, así que disfruto trabajar en equipo y compartir ideas con otros. Siempre busco crear un ambiente positivo y motivador.",
         "description_4": "Además de mis habilidades en programación y manejo de bases de datos, estoy emocionado por aprender más sobre Cloud y DevOps. En mi tiempo libre, me gusta experimentar con nuevas herramientas y mantenerme al día con las tendencias de la industria.",
         "description_5": "Hablo español nativo y tengo un nivel avanzado de inglés (C1), lo que me permite comunicarme en diferentes contextos. Estoy emocionado por las oportunidades que el futuro tiene para ofrecer y listo para dejar mi huella en el mundo del software.",
-       
+      
         "project1_title": "Gestor de Tareas",
         "project1_description": "Aplicación para gestionar tareas con funcionalidades CRUD.",
        
         "project2_title": "Aplicación de Notas",
         "project2_description": "App para tomar notas de manera sencilla.",
-        "project2_technologies":"JavaScript, HTML, CSS",
-
+        "project2_technologies": "JavaScript, HTML, CSS",
+       
         "project3_title": "Agrupamiento con K-Means",
         "project3_description": "Implementación del algoritmo K-Means para segmentar datos y analizar agrupaciones. Incluye preprocesamiento, ejecución del modelo y visualización de clusters.",
-        "project3_results":"Agrupamiento claro con gráficos interpretables y análisis de centroides para entender la coherencia de los datos.",
-        "project3_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
-
+        "project3_results": "Agrupamiento claro con gráficos interpretables y análisis de centroides para entender la coherencia de los datos.",
+        "project3_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project4_title": "Clasificación con KNN y Predicción con Regresión Lineal",
         "project4_description": "Proyecto que aplica KNN para clasificación y Regresión Lineal para predicción, mostrando el uso práctico de ambos algoritmos en diferentes contextos.",
-        "project4_results":"Clasificación precisa con KNN ajustando el valor de k y predicciones continuas confiables con Regresión Lineal, incluyendo visualizaciones interpretables.",
-        "project4_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
-
+        "project4_results": "Clasificación precisa con KNN ajustando el valor de k y predicciones continuas confiables con Regresión Lineal, incluyendo visualizaciones interpretables.",
+        "project4_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project5_title": "Predicción con Regresión Lineal",
         "project5_description": "Proyecto que implementa un modelo de Regresión Lineal para predecir valores continuos, evaluando su desempeño mediante métricas estándar y visualizando resultados.",
-        "project5_results":"Predicciones precisas con un modelo ajustado, destacando la relación entre variables mediante gráficos claros y métricas detalladas.",
-        "project5_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
-
+        "project5_results": "Predicciones precisas con un modelo ajustado, destacando la relación entre variables mediante gráficos claros y métricas detalladas.",
+        "project5_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project6_title": "Clasificación con Regresión Logística",
         "project6_description": "Proyecto de clasificación binaria utilizando Regresión Logística, evaluado con métricas estándar y visualizado con gráficos y matrices de confusión.",
-        "project6_results":"Implementación exitosa con métricas destacables como precisión, recall y F1-score, mostrando resultados claros en matrices de confusión.",
-        "project6_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
-
+        "project6_results": "Implementación exitosa con métricas destacables como precisión, recall y F1-score, mostrando resultados claros en matrices de confusión.",
+        "project6_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project7_title": "Clasificación con Decision Tree y Random Forest",
         "project7_description": "Proyecto de clasificación médica utilizando los algoritmos Decision Tree y Random Forest. Incluye preprocesamiento de datos, entrenamiento de modelos y evaluación de desempeño.",
-        "project7_results":"Implementación exitosa con precisiones destacables. Las matrices de confusión muestran mejoras en la clasificación al usar Random Forest.",
-        "project7_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
-
-        "results":"Resultados:",
+        "project7_results": "Implementación exitosa con precisiones destacables. Las matrices de confusión muestran mejoras en la clasificación al usar Random Forest.",
+        "project7_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
+        "results": "Resultados:",
+       
         "education_info": "Actualmente cursando la carrera de Tecnologías de la Información en UTEC.",
-
-
         "experience.education.title": "Educación",
         "experience.education.utec.title": "UTEC - Tecnologías de la Información",
         "experience.education.status": "Estado:",
@@ -64,18 +61,18 @@
         "experience.education.utu.location": "Fray Bentos, Uruguay",
         "experience.education.utu.description": "Introducción a la informática. Desarrollo de habilidades en bases de datos, programación, electrónica, redes.",
         "experience.education.utu.dates": "2018 - 2020",
-
-         "skill_java": "Desarrollo backend con Java, APIs, JPA, OOP, programación funcional, estructuras de datos y uso de hilos.",
-         "skill_javascript": "Desarrollo de páginas web dinámicas y responsivas, manipulación del DOM y consumo de APIs.",
-         "skill_python": "Análisis de datos, limpieza, transformación y entrenamiento de modelos de machine learning.",
-         "skill_kotlin": "Desarrollo Android, consumo de APIs, gestión de fragmentos y diseño de interfaces con XML.",
-         "skill_html": "Estructuración de contenido web y creación de páginas estáticas y colaborativas.",
-         "skill_css": "Diseño y estilización responsiva de páginas web, uso de Flexbox y Grid.",
-         "skill_bootstrap": "Diseño rápido y responsivo de páginas web con componentes y sistema de rejillas.",
-         "skill_sql": "Consultas SQL, CRUD de tablas, joins, índices y gestión de claves en Oracle y MySQL.",
-         "skill_mongodb": "Manejo de MongoDB para operaciones CRUD con colecciones y documentos JSON.",
-         "skill_git": "Control de versiones con Git, uso de ramas y convenciones de Git flow.",
-
+       
+        "skill_java": "Desarrollo backend con Java, APIs, JPA, OOP, programación funcional, estructuras de datos y uso de hilos.",
+        "skill_javascript": "Desarrollo de páginas web dinámicas y responsivas, manipulación del DOM y consumo de APIs.",
+        "skill_python": "Análisis de datos, limpieza, transformación y entrenamiento de modelos de machine learning.",
+        "skill_kotlin": "Desarrollo Android, consumo de APIs, gestión de fragmentos y diseño de interfaces con XML.",
+        "skill_html": "Estructuración de contenido web y creación de páginas estáticas y colaborativas.",
+        "skill_css": "Diseño y estilización responsiva de páginas web, uso de Flexbox y Grid.",
+        "skill_bootstrap": "Diseño rápido y responsivo de páginas web con componentes y sistema de rejillas.",
+        "skill_sql": "Consultas SQL, CRUD de tablas, joins, índices y gestión de claves en Oracle y MySQL.",
+        "skill_mongodb": "Manejo de MongoDB para operaciones CRUD con colecciones y documentos JSON.",
+        "skill_git": "Control de versiones con Git, uso de ramas y convenciones de Git flow.",
+       
         "faq.question1": "¿Qué tecnologías se utilizaron para construir este portafolio?",
         "faq.answer1": "Este portafolio se desarrolló con HTML, CSS y JavaScript para la estructura, el estilo y la interacción. Además, se usó Bootstrap para facilitar el diseño responsive y mejorar la accesibilidad en diferentes dispositivos",
         "faq.question2": "¿Puedo acceder al código de este portafolio?",
@@ -84,7 +81,6 @@
         "faq.answer3": "Este portafolio fue diseñado completamente desde cero, inspirado en estilos específicos para distintas secciones. Me enfoqué en crear un diseño simple, funcional y estético, inspirado en las mejores prácticas de presentación profesional.",
         "faq.question4": "¿Puedo usar este portafolio como plantilla?",
         "faq.answer4": "Sí, puedes usarlo como referencia o plantilla. Solo te pido que me avises si decides utilizarlo, ¡así puedo ver cómo lo adaptaste!"
-
     },
     "en": {
         "about": "About",
@@ -99,24 +95,41 @@
         "description_3": "I firmly believe in collaboration, so I enjoy working in teams and sharing ideas with others. I always strive to create a positive and motivating environment.",
         "description_4": "In addition to my skills in programming and database management, I am excited to learn more about Cloud and DevOps. In my free time, I enjoy experimenting with new tools and staying updated with industry trends.",
         "description_5": "I am a native Spanish speaker and have an advanced proficiency in English (C1), which allows me to communicate in various contexts. I am excited about the opportunities the future has to offer and ready to make my mark in the software world.",
-
         "education_info": "Currently studying IT at UTEC.",
-
-
+       
         "project1_title": "Task Manager",
-        "project1_description": "Application to manage tasks with CRUD functionalities.",
-        "project2_title": "Notes App",
-        "project2_description": "App for taking notes in a simple way.",
-        "project3_title": "K-Means Clustering",
-        "project3_description": "Implementation of the K-Means algorithm to segment data and analyze clusters. Includes data preprocessing, model execution, and visualization of clusters.",
+        "project1_description": "Application for managing tasks with CRUD functionalities.",
+       
+        "project2_title": "Notes Application",
+        "project2_description": "App for taking notes easily.",
+        "project2_technologies": "JavaScript, HTML, CSS",
+       
+        "project3_title": "Clustering with K-Means",
+        "project3_description": "Implementation of the K-Means algorithm to segment data and analyze clusters. Includes preprocessing, model execution, and cluster visualization.",
+        "project3_results": "Clear clustering with interpretable graphs and centroid analysis to understand data coherence.",
+        "project3_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project4_title": "Classification with KNN and Prediction with Linear Regression",
-        "project4_description": "Project that applies KNN for classification and Linear Regression for prediction, showing the practical use of both algorithms in different contexts.",
+        "project4_description": "Project applying KNN for classification and Linear Regression for prediction, showcasing practical use of both algorithms in different contexts.",
+        "project4_results": "Accurate classification with KNN by adjusting the value of k and reliable continuous predictions with Linear Regression, including interpretable visualizations.",
+        "project4_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project5_title": "Prediction with Linear Regression",
-        "project5_description": "Project that implements a Linear Regression model to predict continuous values, evaluating its performance using standard metrics and visualizing results.",
+        "project5_description": "Project implementing a Linear Regression model to predict continuous values, evaluating its performance through standard metrics and visualizing results.",
+        "project5_results": "Accurate predictions with a well-fitted model, highlighting the relationship between variables through clear graphs and detailed metrics.",
+        "project5_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project6_title": "Classification with Logistic Regression",
-        "project6_description": "Binary classification project using Logistic Regression, evaluated with standard metrics and visualized with graphs and confusion matrices.",
+        "project6_description": "Binary classification project using Logistic Regression, evaluated with standard metrics and visualized through graphs and confusion matrices.",
+        "project6_results": "Successful implementation with outstanding metrics such as precision, recall, and F1-score, showing clear results in confusion matrices.",
+        "project6_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
         "project7_title": "Classification with Decision Tree and Random Forest",
         "project7_description": "Medical classification project using Decision Tree and Random Forest algorithms. Includes data preprocessing, model training, and performance evaluation.",
+        "project7_results": "Successful implementation with remarkable accuracies. Confusion matrices show improved classification when using Random Forest.",
+        "project7_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+       
+        "results": "Results:",
 
         "experience.education.title": "Education",
         "experience.education.utec.title": "UTEC - Information Technology",
@@ -131,7 +144,7 @@
         "experience.education.utu.location": "Fray Bentos, Uruguay",
         "experience.education.utu.description": "Introduction to computer science. Development of foundational skills in databases, programming, electronics, networks.",
         "experience.education.utu.dates": "2018 - 2020",
-
+       
         "skill_java": "Backend development with Java, APIs, JPA, OOP, functional programming, data structures, and multithreading.",
         "skill_javascript": "Development of dynamic and responsive web pages, DOM manipulation, and API consumption.",
         "skill_python": "Data analysis, cleaning, transformation, and machine learning model training.",
@@ -142,7 +155,7 @@
         "skill_sql": "SQL queries, table CRUD operations, joins, indexes, and key management in Oracle and MySQL.",
         "skill_mongodb": "Handling MongoDB for CRUD operations with collections and JSON documents.",
         "skill_git": "Version control with Git, branch management, and Git flow conventions.",
-
+       
         "faq.question1": "What technologies were used to build this portfolio?",
         "faq.answer1": "This portfolio was developed using HTML, CSS, and JavaScript for structure, styling, and interaction. Additionally, Bootstrap was used to facilitate responsive design and improve accessibility across different devices.",
         "faq.question2": "Can I access the code for this portfolio?",
@@ -151,6 +164,5 @@
         "faq.answer3": "This portfolio was designed completely from scratch, inspired by specific styles for various sections. I focused on creating a simple, functional, and aesthetic design, drawing from best practices in professional presentation.",
         "faq.question4": "Can I use this portfolio as a template?",
         "faq.answer4": "Yes, you can use it as a reference or template. I only ask that you let me know if you decide to use it so I can see how you adapted it!"
-    
     }
 }
