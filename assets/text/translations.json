@@ -1,5 +1,7 @@
 {
     "es": {
+
+        
         "about": "Sobre mí",
         "projects": "Proyectos",
         "skills": "Habilidades",
@@ -15,19 +17,35 @@
        
         "project1_title": "Gestor de Tareas",
         "project1_description": "Aplicación para gestionar tareas con funcionalidades CRUD.",
+       
         "project2_title": "Aplicación de Notas",
         "project2_description": "App para tomar notas de manera sencilla.",
+        "project2_technologies":"JavaScript, HTML, CSS",
+
         "project3_title": "Agrupamiento con K-Means",
-        "project3_results":"Agrupamiento claro con gráficos interpretables y análisis de centroides para entender la coherencia de los datos.",
         "project3_description": "Implementación del algoritmo K-Means para segmentar datos y analizar agrupaciones. Incluye preprocesamiento, ejecución del modelo y visualización de clusters.",
+        "project3_results":"Agrupamiento claro con gráficos interpretables y análisis de centroides para entender la coherencia de los datos.",
+        "project3_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+
         "project4_title": "Clasificación con KNN y Predicción con Regresión Lineal",
         "project4_description": "Proyecto que aplica KNN para clasificación y Regresión Lineal para predicción, mostrando el uso práctico de ambos algoritmos en diferentes contextos.",
+        "project4_results":"Clasificación precisa con KNN ajustando el valor de k y predicciones continuas confiables con Regresión Lineal, incluyendo visualizaciones interpretables.",
+        "project4_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+
         "project5_title": "Predicción con Regresión Lineal",
         "project5_description": "Proyecto que implementa un modelo de Regresión Lineal para predecir valores continuos, evaluando su desempeño mediante métricas estándar y visualizando resultados.",
+        "project5_results":"Predicciones precisas con un modelo ajustado, destacando la relación entre variables mediante gráficos claros y métricas detalladas.",
+        "project5_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+
         "project6_title": "Clasificación con Regresión Logística",
         "project6_description": "Proyecto de clasificación binaria utilizando Regresión Logística, evaluado con métricas estándar y visualizado con gráficos y matrices de confusión.",
+        "project6_results":"Implementación exitosa con métricas destacables como precisión, recall y F1-score, mostrando resultados claros en matrices de confusión.",
+        "project6_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
+
         "project7_title": "Clasificación con Decision Tree y Random Forest",
         "project7_description": "Proyecto de clasificación médica utilizando los algoritmos Decision Tree y Random Forest. Incluye preprocesamiento de datos, entrenamiento de modelos y evaluación de desempeño.",
+        "project7_results":"Implementación exitosa con precisiones destacables. Las matrices de confusión muestran mejoras en la clasificación al usar Random Forest.",
+        "project7_technologies":"Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
 
         "results":"Resultados:",
         "education_info": "Actualmente cursando la carrera de Tecnologías de la Información en UTEC.",
