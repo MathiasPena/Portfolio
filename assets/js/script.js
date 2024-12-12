@@ -9,12 +9,30 @@ function loadTranslations() {
                 const key = el.getAttribute('data-key');
                 el.textContent = data[currentLang][key];
             });
+            // Reajustar Masonry tras cambiar el idioma
+            initializeMasonry();
         });
 }
 
 function toggleLanguage() {
     currentLang = currentLang === 'es' ? 'en' : 'es';
     loadTranslations();
+}
+
+// Función para inicializar y forzar el layout de Masonry
+function initializeMasonry() {
+    const elem = document.querySelector('#projects .row');
+    if (elem) {
+        let msnry = new Masonry(elem, {
+            itemSelector: '.col-md-6',
+            columnWidth: '.col-md-6',
+            percentPosition: true,
+        });
+        // Forzar un layout después de un pequeño retraso
+        setTimeout(() => {
+            msnry.layout();
+        }, 200);
+    }
 }
 
 // Función para cambiar el tema
@@ -56,20 +74,9 @@ window.addEventListener("load", function() {
         localStorage.setItem('theme', 'dark');
     }
 
-    // Inicializar Masonry
-    let elem = document.querySelector('#projects .row');
-    let msnry = new Masonry(elem, {
-        itemSelector: '.col-md-6',
-        columnWidth: '.col-md-6',
-        percentPosition: true,
-    });
-
-    // Forzar un layout después de un pequeño retraso
-    setTimeout(function () {
-        msnry.layout();
-    }, 200);
+    // Inicializar Masonry al cargar la página
+    initializeMasonry();
 });
-
 
 // Función para manejar el despliegue de las respuestas
 document.querySelectorAll('.faq-question').forEach(item => {
