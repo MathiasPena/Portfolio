@@ -13,11 +13,12 @@
         "description_4": "Además de mis habilidades en programación y manejo de bases de datos, estoy emocionado por aprender más sobre Cloud y DevOps. En mi tiempo libre, me gusta experimentar con nuevas herramientas y mantenerme al día con las tendencias de la industria.",
         "description_5": "Hablo español nativo y tengo un nivel avanzado de inglés (C1), lo que me permite comunicarme en diferentes contextos. Estoy emocionado por las oportunidades que el futuro tiene para ofrecer y listo para dejar mi huella en el mundo del software.",
       
-        "project1_title": "Gestor de Tareas",
-        "project1_description": "Aplicación para gestionar tareas con funcionalidades CRUD.",
-       
+        "project1_title": "Portafolio",
+        "project1_description": "Diseñé este portafolio desde cero para mostrar mis proyectos, estudios y habilidades, utilizando Bootstrap para el diseño responsivo. Incluye traducciones, CSS organizado en secciones y JavaScript para manejar elementos dinámicos, manteniendo una estructura mayoritariamente estática.",
+        "project1_technologies": "HTML, CSS, JavaScript, Bootstrap",
+
         "project2_title": "Aplicación de Notas",
-        "project2_description": "App para tomar notas de manera sencilla.",
+        "project2_description": "Desarrollé una aplicación de notas para gestionar tareas pendientes, permitiendo crear, editar, eliminar y marcar tareas como completadas. Ofrece opciones para ordenar y filtrar por fecha, prioridad o estado, y tiene un diseño responsivo compatible con dispositivos móviles y de escritorio. Las tareas se almacenan localmente usando localStorage.",
         "project2_technologies": "JavaScript, HTML, CSS",
        
         "project3_title": "Agrupamiento con K-Means",
@@ -97,11 +98,12 @@
         "description_5": "I am a native Spanish speaker and have an advanced proficiency in English (C1), which allows me to communicate in various contexts. I am excited about the opportunities the future has to offer and ready to make my mark in the software world.",
         "education_info": "Currently studying IT at UTEC.",
        
-        "project1_title": "Task Manager",
-        "project1_description": "Application for managing tasks with CRUD functionalities.",
-       
+        "project1_title": "Portfolio",
+        "project1_description": "I designed this portfolio from scratch to showcase my projects, studies, and skills, using Bootstrap for the responsive design. It includes translations, CSS organized into sections, and JavaScript to handle dynamic elements, while keeping the structure mostly static.",
+        "project1_technologies": "HTML, CSS, JavaScript, Bootstrap",
+
         "project2_title": "Notes Application",
-        "project2_description": "App for taking notes easily.",
+        "project2_description": "I developed a note-taking app for managing pending tasks, allowing users to create, edit, delete, and mark tasks as completed. It offers options to sort and filter by date, priority, or status, with a responsive design compatible with both mobile and desktop devices. Tasks are stored locally using localStorage.",
         "project2_technologies": "JavaScript, HTML, CSS",
        
         "project3_title": "Clustering with K-Means",
