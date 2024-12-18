@@ -70,8 +70,8 @@ window.addEventListener("load", function() {
         document.body.classList.add(savedTheme);
     } else {
         // Si no hay tema guardado, establecer tema oscuro por defecto
-        document.body.classList.add('dark');
-        localStorage.setItem('theme', 'dark');
+        document.body.classList.add('light');
+        localStorage.setItem('theme', 'light');
     }
 
     // Inicializar Masonry al cargar la página
