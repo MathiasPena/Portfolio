@@ -17,6 +17,10 @@
         "project1_description": "Diseñé este portafolio desde cero para mostrar mis proyectos, estudios y habilidades, utilizando Bootstrap para el diseño responsivo. Incluye traducciones, CSS organizado en secciones y JavaScript para manejar elementos dinámicos, manteniendo una estructura mayoritariamente estática.",
         "project1_technologies": "HTML, CSS, JavaScript, Bootstrap",
 
+        "project_bingo_title": "Juego bingo con WebSockets y Tokens",
+        "project_bingo_description": "Aplicación web de bingo con frontend y backend integrados, que incluye funcionalidad de login, manejo de tokens para autenticación, conexión con MongoDB para persistencia de datos, y comunicación en tiempo real utilizando WebSockets. Desarrollada para demostrar habilidades full stack en un entorno dinámico y colaborativo.",
+        "project_bingo_technologies": "JavaScript, HTML, CSS, Bootstrap, MongoDB, WebSockets, JWT, Java, SpringBoot",
+
         "project2_title": "Aplicación de Notas",
         "project2_description": "Desarrollé una aplicación de notas para gestionar tareas pendientes, permitiendo crear, editar, eliminar y marcar tareas como completadas. Ofrece opciones para ordenar y filtrar por fecha, prioridad o estado, y tiene un diseño responsivo compatible con dispositivos móviles y de escritorio. Las tareas se almacenan localmente usando localStorage.",
         "project2_technologies": "JavaScript, HTML, CSS",
