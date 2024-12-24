@@ -21,6 +21,10 @@
         "project_bingo_description": "Aplicación web de bingo con frontend y backend integrados, que incluye funcionalidad de login, manejo de tokens para autenticación, conexión con MongoDB para persistencia de datos, y comunicación en tiempo real utilizando WebSockets. Desarrollada para demostrar habilidades full stack en un entorno dinámico y colaborativo.",
         "project_bingo_technologies": "JavaScript, HTML, CSS, Bootstrap, MongoDB, WebSockets, JWT, Java, SpringBoot",
 
+        "project_pftm_title": "Gestor de Eventos y Reclamos Móvil",
+        "project_pftm_description": "Aplicación móvil que permite gestionar eventos y reclamos a través de una interfaz intuitiva y adaptada para usuarios con diferentes roles: estudiantes, profesores y analistas. La app incluye un sistema de login seguro con autenticación basada en roles, ofreciendo pantallas personalizadas para cada tipo de usuario. Entre sus funcionalidades, se destacan la creación, visualización y administración de eventos, así como el registro y seguimiento de reclamos. Además, consume APIs externas para manejar datos de manera eficiente y segura, garantizando una experiencia fluida para todos los usuarios.",
+        "project_pftm_technologies": "Kotlin, Android, XML, APIs REST",
+
         "project2_title": "Aplicación de Notas",
         "project2_description": "Desarrollé una aplicación de notas para gestionar tareas pendientes, permitiendo crear, editar, eliminar y marcar tareas como completadas. Ofrece opciones para ordenar y filtrar por fecha, prioridad o estado, y tiene un diseño responsivo compatible con dispositivos móviles y de escritorio. Las tareas se almacenan localmente usando localStorage.",
         "project2_technologies": "JavaScript, HTML, CSS",
@@ -110,6 +114,9 @@
         "project_bingo_description": "Web application for playing bingo with integrated frontend and backend. Features include login functionality, token-based authentication, MongoDB connection for data persistence, and real-time communication using WebSockets. Developed to showcase full-stack skills in a dynamic and collaborative environment.",
         "project_bingo_technologies": "JavaScript, HTML, CSS, Bootstrap, MongoDB, WebSockets, JWT, Java, Spring Boot",
 
+        "project_pftm_title": "Mobile Events and Claims Manager",
+        "project_pftm_description": "A mobile application that enables the management of events and claims through an intuitive interface tailored for users with different roles: students, teachers, and analysts. The app includes a secure login system with role-based authentication, offering personalized screens for each type of user. Key features include the creation, viewing, and management of events, as well as the registration and tracking of claims. Additionally, it consumes external APIs to handle data efficiently and securely, ensuring a seamless experience for all users.",
+        "project_pftm_technologies": "Kotlin, Android, XML, REST APIs",
 
         "project2_title": "Notes Application",
         "project2_description": "I developed a note-taking app for managing pending tasks, allowing users to create, edit, delete, and mark tasks as completed. It offers options to sort and filter by date, priority, or status, with a responsive design compatible with both mobile and desktop devices. Tasks are stored locally using localStorage.",
