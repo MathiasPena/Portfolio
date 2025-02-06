@@ -1,7 +1,7 @@
 # Mathias Pena Heredia - Portfolio
 
 Welcome to my portfolio! Here, you'll find a showcase of my projects and skills as a developer. My focus lies in both backend and frontend development, with experience in technologies like Java, JavaScript, HTML, CSS, and additional frameworks. I’m also continuously learning to expand my tech stack and strengthen my web development skills. 
- 
+  
 ## 🧑 About Me
 I’m a developer with experience in various programming languages and technologies. Currently, I’m focused on improving my full-stack development skills and seeking opportunities in the tech industry.
 
