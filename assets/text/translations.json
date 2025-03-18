@@ -76,6 +76,7 @@
         "experience.education.utu.dates": "2018 - 2020",
        
         "skill_java": "Desarrollo backend con Java, APIs, JPA, OOP, programación funcional, estructuras de datos y uso de hilos.",
+        "skill_springboot":"Desarrollo de aplicaciones backend con Spring Boot, implementación de APIs REST, autenticación con JWT, manejo de bases de datos con JPA y PostgreSQL, validaciones, manejo de excepciones y estructuración en capas.",
         "skill_javascript": "Desarrollo de páginas web dinámicas y responsivas, manipulación del DOM y consumo de APIs.",
         "skill_python": "Análisis de datos, limpieza, transformación y entrenamiento de modelos de machine learning.",
         "skill_kotlin": "Desarrollo Android, consumo de APIs, gestión de fragmentos y diseño de interfaces con XML.",
@@ -172,6 +173,7 @@
         "experience.education.utu.dates": "2018 - 2020",
        
         "skill_java": "Backend development with Java, APIs, JPA, OOP, functional programming, data structures, and multithreading.",
+        "skill_springboot":"Backend application development with Spring Boot, implementation of REST APIs, authentication with JWT, database management with JPA and PostgreSQL, validations, exception handling, and layered architecture.",
         "skill_javascript": "Development of dynamic and responsive web pages, DOM manipulation, and API consumption.",
         "skill_python": "Data analysis, cleaning, transformation, and machine learning model training.",
         "skill_kotlin": "Android development, API consumption, fragment management, and UI design with XML.",
