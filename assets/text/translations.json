@@ -17,6 +17,10 @@
         "project1_description": "Diseñé este portafolio desde cero para mostrar mis proyectos, estudios y habilidades, utilizando Bootstrap para el diseño responsivo. Incluye traducciones, CSS organizado en secciones y JavaScript para manejar elementos dinámicos, manteniendo una estructura mayoritariamente estática.",
         "project1_technologies": "HTML, CSS, JavaScript, Bootstrap",
 
+        "project_spring_boot": "Aplicación de tienda online con Spring Boot",
+        "project_spring_boot_description": "Aplicación full stack desarrollada con Spring Boot y Vanilla JS, incluyendo un backend y un frontend, con un enfoque en la gestión de productos, usarios, carrito de compras, autenticación y manejo de bases de datos.",
+        "project_spring_boot_technologies": "Java, SpringBoot, HTML, CSS, JavaScript",
+
         "project_bingo_title": "Juego bingo con WebSockets y Tokens",
         "project_bingo_description": "Aplicación web de bingo con frontend y backend integrados, que incluye funcionalidad de login, manejo de tokens para autenticación, conexión con MongoDB para persistencia de datos, y comunicación en tiempo real utilizando WebSockets. Desarrollada para demostrar habilidades full stack en un entorno dinámico y colaborativo.",
         "project_bingo_technologies": "JavaScript, HTML, CSS, Bootstrap, MongoDB, WebSockets, JWT, Java, SpringBoot",
@@ -109,6 +113,10 @@
         "project1_title": "Portfolio",
         "project1_description": "I designed this portfolio from scratch to showcase my projects, studies, and skills, using Bootstrap for the responsive design. It includes translations, CSS organized into sections, and JavaScript to handle dynamic elements, while keeping the structure mostly static.",
         "project1_technologies": "HTML, CSS, JavaScript, Bootstrap",
+
+        "project_spring_boot": "Online store application with Spring Boot",
+        "project_spring_boot_description": "Full stack application developed with Spring Boot and Vanilla JS, including a backend and a frontend, focusing on product management, users, shopping cart, authentication, and database handling.",
+        "project_spring_boot_technologies": "Java, Spring Boot, HTML, CSS, JavaScript",
 
         "project_bingo_title": "Bingo Game with WebSockets and Tokens",
         "project_bingo_description": "Web application for playing bingo with integrated frontend and backend. Features include login functionality, token-based authentication, MongoDB connection for data persistence, and real-time communication using WebSockets. Developed to showcase full-stack skills in a dynamic and collaborative environment.",
