@@ -33,28 +33,28 @@
         "project2_description": "Desarrollé una aplicación de notas para gestionar tareas pendientes, permitiendo crear, editar, eliminar y marcar tareas como completadas. Ofrece opciones para ordenar y filtrar por fecha, prioridad o estado, y tiene un diseño responsivo compatible con dispositivos móviles y de escritorio. Las tareas se almacenan localmente usando localStorage.",
         "project2_technologies": "JavaScript, HTML, CSS",
        
-        "project3_title": "Agrupamiento con K-Means",
-        "project3_description": "Implementación del algoritmo K-Means para segmentar datos y analizar agrupaciones. Incluye preprocesamiento, ejecución del modelo y visualización de clusters.",
+        "project3_title": "Clustering K-Means de Programas de TV",
+        "project3_description": "Implementé un pipeline ETL completo para un conjunto de datos de programas de TV. La solución incluyó carga, limpieza y transformación de datos, corrección de fechas, extracción de características (año, mes) y eliminación de columnas irrelevantes. Las variables categóricas fueron codificadas y los datos normalizados antes de aplicar K-Means. Se evaluó el número óptimo de clusters utilizando el método del codo y métricas de validación (Silhouette, Calinski-Harabasz, Davies-Bouldin). Se utilizó PCA para visualizaciones en 2D y 3D. Este proyecto demuestra habilidades en procesamiento, integración y análisis estructurado de datos.",
         "project3_results": "Agrupamiento claro con gráficos interpretables y análisis de centroides para entender la coherencia de los datos.",
         "project3_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
-        "project4_title": "Clasificación con KNN y Predicción con Regresión Lineal",
-        "project4_description": "Proyecto que aplica KNN para clasificación y Regresión Lineal para predicción, mostrando el uso práctico de ambos algoritmos en diferentes contextos.",
+        "project4_title": "Predicción de Demanda de Compartición de Bicicletas",
+        "project4_description": "Desarrollé un pipeline ETL para un conjunto de datos de bicicletas compartidas. El pipeline incluyó limpieza de datos con imputación de valores nulos y tratamiento de outliers. Se realizó ingeniería de características para extraer variables temporales (año, mes, día, día de la semana), seguido de un análisis exploratorio utilizando mapas de calor, histogramas y boxplots para comprender la distribución de las variables y sus relaciones. Se entrenaron dos modelos de regresión (lineal y KNN), evaluados con métricas MSE y R², demostrando habilidades en transformación de datos, análisis y evaluación de modelos.",
         "project4_results": "Clasificación precisa con KNN ajustando el valor de k y predicciones continuas confiables con Regresión Lineal, incluyendo visualizaciones interpretables.",
         "project4_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
-        "project5_title": "Predicción con Regresión Lineal",
-        "project5_description": "Proyecto que implementa un modelo de Regresión Lineal para predecir valores continuos, evaluando su desempeño mediante métricas estándar y visualizando resultados.",
+        "project5_title": "Predicción de Precios de Viviendas con Regresión Lineal",
+        "project5_description": "Desarrollé un pipeline ETL completo para predecir precios de viviendas utilizando el conjunto de datos \"housing.csv\". El proceso incluyó carga de datos, asignación manual de nombres a las columnas y manejo de valores faltantes. Se realizó un análisis exploratorio con boxplots y mapas de calor para identificar outliers y analizar correlaciones. La ingeniería de características incluyó la creación de términos de interacción (RM * LSTAT) y términos polinomiales (RM², LSTAT²) para capturar relaciones no lineales. El conjunto de datos fue estandarizado, dividido en conjuntos de entrenamiento y prueba, y se entrenó un modelo de regresión lineal, evaluado con métricas MSE, RMSE y R², demostrando habilidades en procesamiento, transformación y análisis estructurado de datos.",
         "project5_results": "Predicciones precisas con un modelo ajustado, destacando la relación entre variables mediante gráficos claros y métricas detalladas.",
         "project5_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
         "project6_title": "Clasificación con Regresión Logística",
-        "project6_description": "Proyecto de clasificación binaria utilizando Regresión Logística, evaluado con métricas estándar y visualizado con gráficos y matrices de confusión.",
+        "project6_description": "Construí un modelo de aprendizaje supervisado para predecir las calificaciones finales de los estudiantes basado en un conjunto de datos proporcionado por CEIP. El proyecto incluyó un análisis exploratorio, limpieza de datos (eliminación de columnas irrelevantes, imputación de valores faltantes, codificación de variables categóricas), y el entrenamiento de un modelo de regresión logística utilizando scikit-learn. El desempeño del modelo se evaluó mediante métricas de clasificación. El modelo entrenado fue guardado y aplicado a un conjunto de datos de validación, generando predicciones que fueron ajustadas y exportadas para su entrega.",
         "project6_results": "Implementación exitosa con métricas destacables como precisión, recall y F1-score, mostrando resultados claros en matrices de confusión.",
         "project6_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
         "project7_title": "Clasificación con Decision Tree y Random Forest",
-        "project7_description": "Proyecto de clasificación médica utilizando los algoritmos Decision Tree y Random Forest. Incluye preprocesamiento de datos, entrenamiento de modelos y evaluación de desempeño.",
+        "project7_description": "Este proyecto se centró en clasificar datos relacionados con la hepatitis utilizando modelos de Árbol de Decisión y Bosque Aleatorio. El conjunto de datos fue cargado y se realizó un preprocesamiento que incluyó imputación de valores faltantes para columnas numéricas y categóricas, así como codificación de variables categóricas con LabelEncoder. Ambos modelos (Random Forest y Árbol de Decisión) fueron entrenados y evaluados utilizando matrices de confusión, precisión e informes de clasificación, proporcionando un análisis comparativo de su rendimiento en la predicción de las clases de hepatitis.",
         "project7_results": "Implementación exitosa con precisiones destacables. Las matrices de confusión muestran mejoras en la clasificación al usar Random Forest.",
         "project7_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
@@ -131,28 +131,28 @@
         "project2_description": "I developed a note-taking app for managing pending tasks, allowing users to create, edit, delete, and mark tasks as completed. It offers options to sort and filter by date, priority, or status, with a responsive design compatible with both mobile and desktop devices. Tasks are stored locally using localStorage.",
         "project2_technologies": "JavaScript, HTML, CSS",
        
-        "project3_title": "Clustering with K-Means",
-        "project3_description": "Implementation of the K-Means algorithm to segment data and analyze clusters. Includes preprocessing, model execution, and cluster visualization.",
+        "project3_title": "K-Means Clustering of TV Shows",
+        "project3_description": "Implemented a full ETL pipeline for a TV shows dataset. The solution involved data loading, cleaning, and transformation, including date correction, feature extraction (year, month), and removal of irrelevant columns. Categorical variables were encoded, and data was normalized before applying K-Means. The optimal number of clusters was evaluated using the elbow method and validation metrics (Silhouette, Calinski-Harabasz, Davies-Bouldin). PCA was used for 2D and 3D visualizations. This project showcases skills in data processing, integration, and structured analysis.",
         "project3_results": "Clear clustering with interpretable graphs and centroid analysis to understand data coherence.",
         "project3_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
-        "project4_title": "Classification with KNN and Prediction with Linear Regression",
-        "project4_description": "Project applying KNN for classification and Linear Regression for prediction, showcasing practical use of both algorithms in different contexts.",
+        "project4_title": "Bike Sharing Demand Prediction",
+        "project4_description": "Developed an ETL pipeline for a bike-sharing dataset. The pipeline involved data cleaning with null value imputation and outlier treatment. Feature engineering was performed to extract temporal variables (year, month, day, weekday), followed by exploratory analysis using heatmaps, histograms, and boxplots to understand variable distributions and relationships. Two regression models (linear and KNN) were trained and evaluated using MSE and R² metrics, demonstrating skills in data transformation, analysis, and model evaluation.",
         "project4_results": "Accurate classification with KNN by adjusting the value of k and reliable continuous predictions with Linear Regression, including interpretable visualizations.",
         "project4_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
-        "project5_title": "Prediction with Linear Regression",
-        "project5_description": "Project implementing a Linear Regression model to predict continuous values, evaluating its performance through standard metrics and visualizing results.",
+        "project5_title": "Housing Price Prediction with Linear Regression",
+        "project5_description": "Developed a complete ETL pipeline for predicting housing prices using the \"housing.csv\" dataset. The process included data loading, manual column naming, and handling missing values. Exploratory analysis was conducted using boxplots and heatmaps to identify outliers and analyze correlations. Feature engineering included creating interaction terms (RM * LSTAT) and polynomial terms (RM², LSTAT²) to capture non-linear relationships. The dataset was standardized, split into training and test sets, and a linear regression model was trained and evaluated using MSE, RMSE, and R² metrics, demonstrating skills in data processing, transformation, and structured analysis.",
         "project5_results": "Accurate predictions with a well-fitted model, highlighting the relationship between variables through clear graphs and detailed metrics.",
         "project5_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
         "project6_title": "Classification with Logistic Regression",
-        "project6_description": "Binary classification project using Logistic Regression, evaluated with standard metrics and visualized through graphs and confusion matrices.",
+        "project6_description": "Built a supervised learning model to predict student final grades based on a dataset provided by CEIP. The project involved exploratory analysis, data cleaning (removing irrelevant columns, imputing missing values, encoding categorical variables), and training a logistic regression model using scikit-learn. Model performance was evaluated using classification metrics. The trained model was saved and applied to a validation dataset, generating predictions that were adjusted and exported for submission.",
         "project6_results": "Successful implementation with outstanding metrics such as precision, recall, and F1-score, showing clear results in confusion matrices.",
         "project6_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
         "project7_title": "Classification with Decision Tree and Random Forest",
-        "project7_description": "Medical classification project using Decision Tree and Random Forest algorithms. Includes data preprocessing, model training, and performance evaluation.",
+        "project7_description": "This project focused on classifying hepatitis-related data using Decision Tree and Random Forest models. The dataset was loaded, and preprocessing was performed, including imputation of missing values for numerical and categorical columns and encoding categorical variables with LabelEncoder. Both Random Forest and Decision Tree models were trained and evaluated using confusion matrices, accuracy, and classification reports, providing a comparative analysis of their performance in predicting hepatitis classes.",
         "project7_results": "Successful implementation with remarkable accuracies. Confusion matrices show improved classification when using Random Forest.",
         "project7_technologies": "Python, Pandas, Scikit-learn, Matplotlib, Seaborn.",
        
